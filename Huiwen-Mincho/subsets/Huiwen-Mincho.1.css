@@ -1,0 +1,742 @@
+/* By Crimone
+ * Font Splitter
+ * https://github.com/VdustR/font-splitter
+ */
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Basic-Latin.woff2") format('woff2');
+  unicode-range: U+0, U+1d, U+20-7d;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Latin-1-Supplement.woff2") format('woff2');
+  unicode-range: U+a0-b4, U+b6-ff;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Latin-Extended-A.woff2") format('woff2');
+  unicode-range: U+100-109, U+10c-10f, U+111-113, U+118-11d, U+124-125, U+127, U+12a-12b, U+134-135, U+139-13a, U+13d-13e, U+141-144, U+147-148, U+14b-14d, U+150-155, U+158-165, U+16a-171, U+179-17e;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Latin-Extended-B.woff2") format('woff2');
+  unicode-range: U+193, U+1c2, U+1cd-1ce, U+1d0-1d2, U+1d4, U+1d6, U+1d8, U+1da, U+1dc, U+1f8-1f9;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.IPA-Extensions.woff2") format('woff2');
+  unicode-range: U+250-25a, U+25c, U+25e-261, U+264-268, U+26c-273, U+275, U+279-27b, U+27d-27e, U+281-284, U+288-28e, U+290-292, U+294-295, U+298, U+29d, U+2a1-2a2;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Spacing-Modifier-Letters.woff2") format('woff2');
+  unicode-range: U+2c7-2c8, U+2cc, U+2d0-2d1, U+2d8-2d9, U+2db, U+2dd-2de, U+2e5-2e9;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Combining-Diacritical-Marks.woff2") format('woff2');
+  unicode-range: U+300-304, U+306, U+308, U+30b-30c, U+30f, U+318-31a, U+31c-320, U+324, U+329-32a, U+32c, U+32f-330, U+334, U+339-33d, U+361;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Greek-and-Coptic.woff2") format('woff2');
+  unicode-range: U+391-3a1, U+3a3-3a9, U+3b1-3c9;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Cyrillic.woff2") format('woff2');
+  unicode-range: U+401, U+406, U+410-44f, U+451, U+456, U+462-463, U+472-475;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Latin-Extended-Additional.woff2") format('woff2');
+  unicode-range: U+1e3e-1e3f;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Greek-Extended.woff2") format('woff2');
+  unicode-range: U+1f70-1f71, U+1f73;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.General-Punctuation.woff2") format('woff2');
+  unicode-range: U+2010, U+2013-2016, U+2018-2022, U+2025-2026, U+2030, U+2032-2033, U+203b-203c, U+203e-203f, U+2042, U+2047-2049, U+2051;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Currency-Symbols.woff2") format('woff2');
+  unicode-range: U+20ac;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Letterlike-Symbols.woff2") format('woff2');
+  unicode-range: U+2103, U+210f, U+2113, U+2116, U+2121, U+2127, U+212b, U+2135;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Number-Forms.woff2") format('woff2');
+  unicode-range: U+2153-2155, U+2160-216b, U+2170-217b;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Arrows.woff2") format('woff2');
+  unicode-range: U+2190-2194, U+2196-2199, U+21c4, U+21d2, U+21d4, U+21e6-21e9;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Mathematical-Operators.woff2") format('woff2');
+  unicode-range: U+2200, U+2202-2203, U+2205, U+2207-2209, U+220b, U+2212-2213, U+221a, U+221d-2220, U+2225-222c, U+222e, U+2234-2235, U+223d, U+2243, U+2245, U+2248, U+2252, U+2260-2262, U+2266-2267, U+226a-226b, U+2276-2277, U+2282-2287, U+228a-228b, U+2295-2297, U+22a5, U+22bf, U+22da-22db;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Miscellaneous-Technical.woff2") format('woff2');
+  unicode-range: U+2305-2306, U+2312, U+2318, U+23be-23cc, U+23ce;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Control-Pictures.woff2") format('woff2');
+  unicode-range: U+2423;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Enclosed-Alphanumerics.woff2") format('woff2');
+  unicode-range: U+2460-2473, U+24d0-24e9, U+24eb-24fe;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Box-Drawing.woff2") format('woff2');
+  unicode-range: U+2500-2503, U+250c, U+250f-2510, U+2513-2514, U+2517-2518, U+251b-251d, U+2520, U+2523-2525, U+2528, U+252b-252c, U+252f-2530, U+2533-2534, U+2537-2538, U+253b-253c, U+253f, U+2542, U+254b;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Geometric-Shapes.woff2") format('woff2');
+  unicode-range: U+25a0-25a1, U+25b1-25b3, U+25b6-25b7, U+25bc-25bd, U+25c0-25c1, U+25c6-25c7, U+25c9, U+25cb, U+25ce-25d3, U+25e6, U+25ef;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Miscellaneous-Symbols.woff2") format('woff2');
+  unicode-range: U+2600-2603, U+2605-2606, U+2609-260e, U+2616-2617, U+261e, U+263c-2653, U+2660-266f;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Dingbats.woff2") format('woff2');
+  unicode-range: U+2713, U+2756, U+2776-277f;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Supplemental-Arrows-B.woff2") format('woff2');
+  unicode-range: U+2934-2935;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Miscellaneous-Mathematical-Symbols-B.woff2") format('woff2');
+  unicode-range: U+29bf, U+29fa-29fb;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Symbols-and-Punctuation.woff2") format('woff2');
+  unicode-range: U+3000-3003, U+3005-3019, U+301c-301d, U+301f-3020, U+3033-3035, U+303b-303d;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Hiragana.woff2") format('woff2');
+  unicode-range: U+3041-3096, U+309b-309f;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Katakana.woff2") format('woff2');
+  unicode-range: U+30a0-30ff;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Bopomofo.woff2") format('woff2');
+  unicode-range: U+3105-312c;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Katakana-Phonetic-Extensions.woff2") format('woff2');
+  unicode-range: U+31f0-31f9, U+31fb-31ff;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.Enclosed-CJK-Letters-and-Months.woff2") format('woff2');
+  unicode-range: U+3231-3232, U+3239, U+3251-325f, U+32a4-32a8, U+32b1-32bf, U+32d0-32e3, U+32e5, U+32e9, U+32ec-32ed, U+32fa, U+32ff;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Compatibility.woff2") format('woff2');
+  unicode-range: U+3303, U+330d, U+3314, U+3318, U+3322-3323, U+3326-3327, U+332b, U+3336, U+333b, U+3349-334a, U+334d, U+3351, U+3357, U+337b-337e, U+338e-338f, U+339c-339e, U+33a1, U+33c4, U+33cb, U+33cd;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-Extension-A-1.woff2") format('woff2');
+  unicode-range: U+3447, U+3473, U+347a, U+34ba, U+34c2, U+34c7, U+3541, U+3551, U+3558, U+3560, U+3565, U+359e, U+360e, U+361a, U+362d, U+375b, U+3760-3761, U+37c1, U+37e4, U+3800, U+382f, U+3836, U+384c, U+3898, U+3918-3919, U+396b, U+396e, U+39cf-39d0, U+39df, U+39f1, U+3a17-3a18, U+3a25, U+3a2a, U+3a3f, U+3a41, U+3a44, U+3a57, U+3a66, U+3a73, U+3a9a, U+3a9f, U+3aaf, U+3b09, U+3b2a, U+3b4e, U+3bed, U+3c43, U+3c6e, U+3cc4, U+3cd2, U+3ce0, U+3d31, U+3d4e, U+3d7c, U+3d9a, U+3f1d, U+3f5e, U+3fdc, U+4056, U+40ab, U+415f, U+4189, U+4230, U+4280, U+42b9, U+42f2, U+432b, U+4337, U+436a, U+43ac, U+43b1, U+43dd, U+43f2, U+4407, U+445b, U+44d6, U+4525, U+4543, U+45ec, U+460f, U+4611, U+461a, U+462e, U+464c, U+465d, U+4661, U+46d0, U+46e1, U+470c, U+4723, U+4729, U+473f;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-Extension-A-2.woff2") format('woff2');
+  unicode-range: U+4754, U+477c, U+478d, U+47d6, U+4800, U+4836-4837, U+48db, U+4947, U+4965, U+496b, U+497a, U+497d, U+4982-4983, U+4985-4986, U+499b, U+499f, U+49a7, U+49b0, U+49b6-49b7, U+4b03, U+4b2a, U+4b7e, U+4c1f, U+4c54, U+4c57, U+4c77, U+4c9f-4ca3, U+4cd8, U+4d13-4d19, U+4d20-4d21, U+4d38, U+4d8a, U+4da7, U+4dae;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-001.woff2") format('woff2');
+  unicode-range: U+4e00-4e01, U+4e03-4e0e, U+4e10-4e11, U+4e13-4e16, U+4e18-4e1f, U+4e21-4e22, U+4e24-4e28, U+4e2a-4e2d, U+4e30, U+4e32, U+4e34, U+4e36, U+4e38-4e3f, U+4e42-4e43, U+4e45, U+4e47-4e49, U+4e4b-4e50, U+4e52-4e54, U+4e56-4e61, U+4e66, U+4e69, U+4e70-4e71, U+4e73, U+4e79, U+4e7e, U+4e80-4e82, U+4e85-4e86, U+4e88-4e89, U+4e8b-4e8e;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-002.woff2") format('woff2');
+  unicode-range: U+4e8f, U+4e91-4e96, U+4e98-4ea2, U+4ea4-4ea9, U+4eab-4eaf, U+4eb1-4eb3, U+4eb5, U+4eb7, U+4eba-4ebb, U+4ebe-4ec7, U+4ec9-4ecb, U+4ecd-4ecf, U+4ed1, U+4ed3-4ed9, U+4edd-4edf, U+4ee1, U+4ee3-4ee5, U+4ee8, U+4eea-4eec, U+4eee, U+4ef0, U+4ef2-4ef3, U+4ef5-4ef7, U+4efb, U+4efd, U+4eff, U+4f01, U+4f09-4f0a, U+4f0d-4f11, U+4f15, U+4f17-4f1b, U+4f1d;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-003.woff2") format('woff2');
+  unicode-range: U+4f1e-4f20, U+4f22, U+4f24-4f27, U+4f2a-4f2b, U+4f2f-4f30, U+4f32, U+4f34, U+4f36, U+4f38, U+4f3a, U+4f3c-4f3d, U+4f40, U+4f43, U+4f46-4f48, U+4f4d-4f51, U+4f53-4f55, U+4f57-4f60, U+4f63-4f65, U+4f67, U+4f69, U+4f6c, U+4f6f-4f70, U+4f73-4f76, U+4f79, U+4f7b-4f7c, U+4f7e-4f7f, U+4f83-4f84, U+4f86, U+4f88-4f89, U+4f8b, U+4f8d, U+4f8f, U+4f91, U+4f94, U+4f96-4f98, U+4f9b, U+4f9d, U+4fa0-4fa1, U+4fa3, U+4fa5-4faa, U+4fac, U+4fae-4faf, U+4fb5-4fb7, U+4fbf, U+4fc1-4fc5, U+4fca;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-004.woff2") format('woff2');
+  unicode-range: U+4fce-4fd1, U+4fd7-4fd8, U+4fda-4fe1, U+4fe3-4fe6, U+4fe8-4fea, U+4fed-4fef, U+4ff1, U+4ff3, U+4ff5-4ff6, U+4ff8, U+4ffa-4ffb, U+4ffe, U+5000, U+5002-5003, U+5006, U+5009, U+500b-500d, U+500f-5012, U+5014, U+5016, U+5018-501a, U+501c, U+501f, U+5021, U+5023-5026, U+5028-502e, U+5036, U+5038-503a, U+503c, U+503e, U+5043, U+5047-5049, U+504c, U+504e-504f, U+5055, U+5058, U+505a, U+505c, U+5065, U+506a, U+506c, U+5072, U+5074-5077, U+507a-507b, U+507d-5080, U+5085, U+508c;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-005.woff2") format('woff2');
+  unicode-range: U+508d, U+5091, U+5096, U+5098-509a, U+50a2-50a3, U+50a5, U+50a7-50a9, U+50ac-50ad, U+50af, U+50b2-50b5, U+50b7, U+50ba-50bb, U+50be, U+50c2, U+50c5, U+50c9-50ca, U+50cd, U+50cf, U+50d1, U+50d5-50d6, U+50da, U+50de, U+50e5-50e8, U+50ec-50ee, U+50f1, U+50f3, U+50f5, U+50f9, U+50fb, U+5100-5102, U+5104, U+5106-5109, U+510b-510d, U+5110, U+5112, U+5114-5115, U+5117-5118, U+511a, U+511f, U+5121, U+512a, U+5132, U+5135, U+5137, U+513a-513c, U+513f-5141, U+5143-5149, U+514b-514e, U+5150-5152, U+5154-5157, U+515a, U+515c;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-006.woff2") format('woff2');
+  unicode-range: U+5160, U+5162, U+5165, U+5167-516e, U+5170-5171, U+5173-5179, U+517b-517d, U+5180-5182, U+5184-5186, U+5188-518a, U+518c-518d, U+5190-5192, U+5195-5199, U+519b-519c, U+51a0, U+51a2-51a5, U+51a8, U+51aa-51ac, U+51af-51b3, U+51b5-51b7, U+51ba-51bd, U+51c0, U+51c4, U+51c6-51cf, U+51d1, U+51d3, U+51d6, U+51db-51dd, U+51e0-51e4, U+51e6-51eb, U+51ed, U+51ef;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-007.woff2") format('woff2');
+  unicode-range: U+51f0-51f1, U+51f3-51f6, U+51f8-5203, U+5206-5208, U+520a, U+520d-520e, U+5211-5212, U+5216-521b, U+521d, U+5220, U+5224-522e, U+5230, U+5233-5234, U+5236-523d, U+523f-5244, U+5247, U+5249-5251, U+5254, U+5256-5257, U+5259, U+525b-525e, U+5261, U+5263-5265, U+5267, U+5269-526a, U+526e-5275, U+5277;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-008.woff2") format('woff2');
+  unicode-range: U+5279, U+527d, U+527f, U+5281-5284, U+5287-528a, U+528c-528d, U+5290-5294, U+529b, U+529d-52a3, U+52a8-52ad, U+52b1-52b5, U+52b9, U+52be-52bf, U+52c1, U+52c3, U+52c5, U+52c7, U+52c9, U+52cb-52cc, U+52d0-52d2, U+52d5-52db, U+52dd-52e0, U+52e2-52e4, U+52e6-52e7, U+52e9, U+52f0-52f3, U+52f5, U+52f8-52fb, U+52fd-5306, U+5308, U+530d, U+530f-5310, U+5315-5317, U+5319-531a, U+531c;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-009.woff2") format('woff2');
+  unicode-range: U+531d, U+531f-5321, U+5323, U+5326, U+532a, U+532d-532f, U+5331-5333, U+5338-533b, U+533e-5341, U+5343, U+5345-534a, U+534d-5358, U+535a, U+535c-5364, U+5366-5367, U+5369, U+536b, U+536e-5371, U+5373-5375, U+5377-537b, U+537d, U+537f-5380, U+5382-5386, U+5389, U+538b-538d, U+5393-5395, U+5398-539a, U+539d, U+539f-53a0, U+53a2-53a6, U+53a8-53a9, U+53ad-53ae;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-010.woff2") format('woff2');
+  unicode-range: U+53b0, U+53b2-53b4, U+53b6, U+53bb, U+53bf, U+53c1-53ce, U+53d1-53d2, U+53d4-53db, U+53df-53fd, U+5401, U+5403-5404, U+5406, U+5408-5413, U+5415-5417, U+541a-541b, U+541d-5421, U+5423, U+5426-5429, U+542b-542d;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-011.woff2") format('woff2');
+  unicode-range: U+542e-542f, U+5431-5436, U+5438-5439, U+543b-543c, U+543e-5440, U+5442-5443, U+5446, U+5448-544c, U+544e, U+5450-5459, U+545b-545c, U+545f, U+5462, U+5464, U+5466, U+5468, U+546a, U+5471-5473, U+5475-5478, U+547b-547d, U+5480-5482, U+5484, U+5486, U+548a-548c, U+548e-5490, U+5492, U+5494-5496, U+5499-549b, U+549d, U+54a3-54a4, U+54a6-54ad, U+54af, U+54b1-54b4, U+54b8, U+54bb-54bd, U+54bf-54c2, U+54c4, U+54c6;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-012.woff2") format('woff2');
+  unicode-range: U+54c7-54c9, U+54cc-54d5, U+54d7, U+54d9-54da, U+54dc-54df, U+54e1, U+54e5-54ea, U+54ed-54ee, U+54f2-54f3, U+54f6, U+54fa, U+54fc-54fd, U+54ff, U+5501, U+5504, U+5506-5507, U+5509, U+550f-5511, U+5514-5516, U+5518, U+551b, U+551d, U+5520-5524, U+5527, U+552a-552c, U+552e-5531, U+5533, U+5535, U+5537-5538, U+553c, U+553e-553f, U+5541, U+5543-5544, U+5546, U+5549-554a, U+554e-5551, U+5553, U+5555-5557, U+555c, U+555e-555f, U+5561-5567, U+556a, U+556c;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-013.woff2") format('woff2');
+  unicode-range: U+556d-556e, U+5570, U+5575-5578, U+557b-557c, U+557e, U+5580-5584, U+5586-558b, U+558e-558f, U+5591-5592, U+5594, U+5598-559a, U+559c-559d, U+559f, U+55a6-55a7, U+55a9-55ac, U+55ae, U+55b0-55b3, U+55b5-55b7, U+55b9, U+55bb, U+55bd-55be, U+55c1, U+55c4-55c7, U+55c9-55ca, U+55cc-55ce, U+55d1-55d4, U+55d6, U+55da, U+55dc-55df, U+55e1, U+55e3-55e6, U+55e8-55ec, U+55ee-55ef, U+55f2-55f3, U+55f5-55f7, U+55fb, U+55fd-55fe, U+5600-5601, U+5605-5606, U+5608-5609;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-014.woff2") format('woff2');
+  unicode-range: U+560c-560f, U+5611, U+5614, U+5616-5618, U+561a-561c, U+561e-5621, U+5623-5624, U+5627-5629, U+562c-5632, U+5634-5639, U+563b, U+563f-5642, U+5649, U+564c-564e, U+5653-5654, U+5657-5659, U+565b-565d, U+5660, U+5662, U+5664-5666, U+5668-566c, U+566f, U+5671-5672, U+5674, U+5676, U+5678-567c, U+5680, U+5685-5687, U+568c, U+568e-5690, U+5693, U+5695, U+5699, U+56a2-56a3, U+56a5-56a6, U+56a8, U+56ae-56af, U+56b3-56b4, U+56b6-56b7, U+56bc, U+56c0-56c1;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-015.woff2") format('woff2');
+  unicode-range: U+56c2-56c3, U+56c5, U+56c8-56ca, U+56cc, U+56ce-56cf, U+56d1, U+56d3-56d4, U+56d7-56db, U+56dd-56e4, U+56e7, U+56ea-56f5, U+56f7, U+56f9-56fb, U+56fd-56ff, U+5703-570d, U+570f, U+5712-5713, U+5715-5716, U+5718, U+571b-571f, U+5723, U+5726-572a, U+572c-5730, U+5733, U+5737, U+5739-573b, U+573e, U+5740, U+5742, U+5747, U+574a, U+574c-5751, U+5757, U+575a;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-016.woff2") format('woff2');
+  unicode-range: U+575b-5761, U+5764, U+5766, U+5768-576b, U+576d, U+576f-5770, U+5773, U+5775-5777, U+577b-577c, U+577f, U+5782-5786, U+5788, U+578b-578c, U+5792-5793, U+579a-579c, U+57a0-57a4, U+57a6-57a7, U+57a9, U+57ab, U+57ad-57ae, U+57b0, U+57b2-57b5, U+57b8, U+57bb, U+57c2-57c3, U+57cb, U+57ce-57cf, U+57d2-57d6, U+57d8-57da, U+57dc-57dd, U+57df-57e1, U+57e4, U+57e6-57e7, U+57ed, U+57ef, U+57f3-57f5, U+57f7-57fa, U+57fc-57fd, U+5800, U+5802-5803, U+5805-5807, U+580a-580b, U+580d, U+5811;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-017.woff2") format('woff2');
+  unicode-range: U+5815-5816, U+5818-5819, U+581d-581e, U+5820-5821, U+5824, U+5826, U+582a, U+582f-5831, U+5834-5835, U+583f-5841, U+5843-5844, U+584a-584d, U+584f, U+5851-5852, U+5854, U+5857-585a, U+585e-585f, U+5861-5862, U+5864-5865, U+5869, U+586b-586d, U+5872, U+5875, U+5879, U+587c, U+587e, U+5880-5881, U+5883, U+5885, U+5889-588a, U+5891-5893, U+5896-5897, U+5899-589a, U+589c, U+589e-589f, U+58a8-58aa, U+58ae, U+58b3, U+58bb-58bc, U+58be, U+58c1, U+58c4-58c5, U+58c7, U+58ca, U+58cc, U+58ce, U+58d1, U+58d3, U+58d5, U+58d8-58da, U+58dc, U+58de-58e0, U+58e2, U+58e4, U+58e9, U+58eb-58ec, U+58ee-58ef;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-018.woff2") format('woff2');
+  unicode-range: U+58f0-58f3, U+58f6, U+58f8-58fd, U+5900, U+5902, U+5904, U+5907, U+5909-590a, U+590c-590d, U+590f, U+5914-5916, U+5918-591a, U+591c, U+591f-5920, U+5922, U+5924-5925, U+5927, U+5929-592b, U+592d-5931, U+5934, U+5937-593a, U+593c, U+593e, U+5941-5942, U+5944, U+5947-5949, U+594b, U+594e-5951, U+5954-5958, U+595a, U+5960, U+5962, U+5965, U+5967-596a, U+596c, U+596e, U+5973-5974, U+5976, U+5978-5979, U+597d, U+5981-5984, U+5986-5988, U+598a, U+598d, U+5992-5993, U+5996-5997, U+5999, U+599d-599e;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-019.woff2") format('woff2');
+  unicode-range: U+59a3-59a5, U+59a8-59ac, U+59ae-59af, U+59b2-59b3, U+59b7, U+59b9, U+59bb, U+59be, U+59c6, U+59c9-59cb, U+59cd, U+59d0-59d4, U+59d7-59da, U+59dc-59dd, U+59e3, U+59e5-59e6, U+59e8, U+59ea-59ec, U+59f6, U+59f9, U+59fb, U+59ff, U+5a01, U+5a03-5a09, U+5a0c, U+5a11, U+5a13, U+5a18, U+5a1b-5a1c, U+5a1f-5a20, U+5a23, U+5a25, U+5a29, U+5a2f, U+5a31-5a32, U+5a34, U+5a36, U+5a3c, U+5a3f-5a41, U+5a46, U+5a49-5a4a, U+5a50, U+5a55, U+5a5a, U+5a62-5a63, U+5a66-5a67, U+5a6a, U+5a6c-5a6d, U+5a73-5a77, U+5a7a, U+5a7c, U+5a7e-5a7f, U+5a8d, U+5a92, U+5a9a;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-020.woff2") format('woff2');
+  unicode-range: U+5a9b, U+5aa7, U+5aaa, U+5aae-5aaf, U+5ab1-5ab3, U+5ab5, U+5ab8, U+5abc-5abf, U+5ac1-5ac2, U+5ac9, U+5acb-5acc, U+5ad2, U+5ad4, U+5ad6-5ad8, U+5adc, U+5ae0-5ae1, U+5ae3, U+5ae6, U+5ae9, U+5aeb, U+5af0-5af1, U+5af5, U+5afa-5afb, U+5aff-5b00, U+5b08-5b09, U+5b0b-5b0c, U+5b16-5b17, U+5b19, U+5b1b, U+5b1d, U+5b21-5b22, U+5b24, U+5b2a, U+5b2d, U+5b30, U+5b32, U+5b34, U+5b36-5b38, U+5b3e, U+5b40, U+5b43, U+5b4c, U+5b50-5b51, U+5b53-5b55, U+5b57-5b5d, U+5b5f, U+5b62-5b66, U+5b69-5b6c, U+5b70-5b71, U+5b73, U+5b75, U+5b78, U+5b7a, U+5b7c-5b7d, U+5b7f-5b82;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-021.woff2") format('woff2');
+  unicode-range: U+5b83-5b85, U+5b87-5b89, U+5b8b-5b8c, U+5b8f, U+5b93, U+5b95, U+5b97-5ba6, U+5baa-5bac, U+5bae, U+5bb0, U+5bb3-5bb6, U+5bb8-5bb9, U+5bbc-5bc0, U+5bc2-5bc7, U+5bcc, U+5bd0-5bd5, U+5bd7-5bd8, U+5bdb, U+5bdd-5bdf, U+5be1-5be2, U+5be4-5be9, U+5beb-5bec, U+5bee, U+5bf0, U+5bf3, U+5bf5-5bf6, U+5bf8-5bfc, U+5bfe-5bff, U+5c01-5c02, U+5c04-5c0b, U+5c0d-5c0e;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-022.woff2") format('woff2');
+  unicode-range: U+5c0f, U+5c11-5c12, U+5c14-5c16, U+5c18-5c1a, U+5c1c-5c1d, U+5c1f-5c20, U+5c22, U+5c24-5c25, U+5c27, U+5c2c-5c2d, U+5c31, U+5c34, U+5c37-5c53, U+5c55, U+5c59, U+5c5b-5c5c, U+5c5e, U+5c60-5c66, U+5c68, U+5c6c-5c6f, U+5c71, U+5c79-5c7a, U+5c7f, U+5c81-5c82, U+5c85, U+5c88, U+5c8c-5c8d, U+5c90-5c91, U+5c94, U+5c96-5c9c, U+5ca1-5ca3, U+5ca7-5ca9, U+5cab-5cad;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-023.woff2") format('woff2');
+  unicode-range: U+5cb1, U+5cb3, U+5cb5, U+5cb7-5cb8, U+5cba, U+5cbc-5cbd, U+5cbf, U+5cc1, U+5cc3-5cc4, U+5ccb, U+5cd2, U+5cd5, U+5cd9, U+5cdd, U+5ce0-5ce1, U+5ce3-5ce6, U+5ce8-5cea, U+5ced, U+5cef-5cf0, U+5cf4, U+5cf6, U+5cfb, U+5cfd, U+5d01-5d03, U+5d06-5d07, U+5d0d-5d0e, U+5d10-5d11, U+5d14, U+5d16-5d1b, U+5d1e, U+5d20-5d22, U+5d24, U+5d26-5d27, U+5d29, U+5d2c-5d2e, U+5d33-5d34, U+5d3d-5d3e, U+5d47, U+5d4a-5d4c, U+5d50, U+5d57-5d58, U+5d5a-5d5b, U+5d5d, U+5d69, U+5d6b-5d6c, U+5d6f, U+5d74, U+5d81-5d84, U+5d87, U+5d8b, U+5d92-5d94, U+5d97, U+5d99, U+5d9d, U+5da0, U+5da2, U+5da7-5da8, U+5dae;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-024.woff2") format('woff2');
+  unicode-range: U+5db7-5db8, U+5dba, U+5dbc-5dbd, U+5dc2, U+5dc5, U+5dcb-5dcd, U+5dd2-5dd4, U+5dd6-5dd7, U+5ddb-5dde, U+5de0-5de3, U+5de5-5de9, U+5deb, U+5dee-5df5, U+5df7, U+5df9, U+5dfb, U+5dfd-5e03, U+5e05-5e06, U+5e08, U+5e0b-5e0c, U+5e0f-5e11, U+5e14-5e16, U+5e18-5e1d, U+5e25-5e27, U+5e2b-5e31, U+5e33, U+5e36-5e38, U+5e3b-5e3d, U+5e40, U+5e42-5e45, U+5e47, U+5e4c, U+5e51, U+5e54-5e55, U+5e57-5e5b;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-025.woff2") format('woff2');
+  unicode-range: U+5e5e-5e5f, U+5e61-5e63, U+5e6b-5e6c, U+5e72-5e74, U+5e76-5e81, U+5e83-5e84, U+5e86-5e87, U+5e8a-5e8b, U+5e8f-5e91, U+5e93-5e97, U+5e99-5e9a, U+5e9c, U+5e9e-5ea0, U+5ea5-5ea7, U+5eab, U+5ead, U+5eb3, U+5eb5-5eb9, U+5ebb-5ebe, U+5ec1-5ec4, U+5ec8-5eca, U+5ece, U+5ed0-5ed3, U+5ed5-5ed6, U+5eda-5edb, U+5edd, U+5edf-5ee3, U+5ee8-5eea, U+5eec, U+5ef0, U+5ef3-5ef7, U+5ef9-5efc, U+5efe-5f00;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-026.woff2") format('woff2');
+  unicode-range: U+5f01-5f04, U+5f08, U+5f0a-5f15, U+5f17-5f18, U+5f1b, U+5f1f-5f20, U+5f25-5f27, U+5f29-5f2a, U+5f2d, U+5f2f, U+5f31, U+5f33, U+5f35, U+5f37, U+5f39-5f3a, U+5f3c, U+5f3e, U+5f40, U+5f46, U+5f48, U+5f4a, U+5f4c, U+5f4e, U+5f50-5f5e, U+5f61-5f62, U+5f64-5f67, U+5f69-5f6d, U+5f70-5f71, U+5f73, U+5f77, U+5f79, U+5f7b-5f7c, U+5f7f-5f85, U+5f87-5f8c, U+5f90-5f93, U+5f95, U+5f97-5f98;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-027.woff2") format('woff2');
+  unicode-range: U+5f99, U+5f9c, U+5f9e, U+5fa0-5fa1, U+5fa7-5faa, U+5fac-5fae, U+5fb3-5fb5, U+5fb7, U+5fb9, U+5fbc-5fbd, U+5fc3-5fc6, U+5fc9, U+5fcc-5fcd, U+5fcf-5fd2, U+5fd6-5fd9, U+5fdc-5fdd, U+5fe0-5fe1, U+5fe4, U+5fe7, U+5fea-5feb, U+5fed-5fee, U+5ff0-5ff1, U+5ff5, U+5ff8, U+5ffa-5ffb, U+5ffd-6006, U+600a, U+600d-600f, U+6012, U+6014-6016, U+6019, U+601b-601d, U+6020-6021, U+6025-602b, U+602f, U+6031, U+6033, U+6035, U+603a-603c, U+603f, U+6041-6043, U+6046, U+604b, U+604d, U+6050;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-028.woff2") format('woff2');
+  unicode-range: U+6052, U+6055, U+6059-605a, U+605d, U+6060-6065, U+6067-606d, U+606f-6070, U+6073, U+6075-6076, U+6078-607d, U+607f, U+6083-6085, U+6089, U+608c-608d, U+6092, U+6094, U+6096, U+609a-609b, U+609d, U+609f-60a0, U+60a3-60a4, U+60a6, U+60a8-60ad, U+60af, U+60b1-60b6, U+60b8, U+60bb-60bd, U+60c5-60c7, U+60ca-60cb, U+60cf, U+60d1, U+60d5, U+60d8, U+60da-60dd, U+60df-60e1, U+60e5-60f4;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-029.woff2") format('woff2');
+  unicode-range: U+60f6-60f7, U+60f9-60fb, U+6100-6101, U+6106, U+6108-6109, U+610d-610f, U+6115, U+611a-611c, U+611f-6120, U+6123-6124, U+6126-6128, U+612b-612c, U+6134, U+6137, U+613c-613f, U+6142, U+6144, U+6147-6148, U+614a-614e, U+6151, U+6155, U+6158-615a, U+615d, U+615f, U+6162-6164, U+6167-6168, U+616a-616b, U+616e, U+6170, U+6173-6177, U+617c-617e, U+6182, U+618a-618b, U+618e, U+6190-6192, U+6194, U+619a, U+619d, U+61a4, U+61a7-61a9, U+61ab-61ac, U+61ae, U+61b2, U+61b6-61b7, U+61be, U+61c2-61c3, U+61c7-61cd, U+61d0;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-030.woff2") format('woff2');
+  unicode-range: U+61d1-61d2, U+61d4, U+61de-61df, U+61e3, U+61e6, U+61e8, U+61f2, U+61f5-61f8, U+61fa, U+61fc-6200, U+6206-6212, U+6214-6218, U+621a-621b, U+621e-6222, U+6224-6227, U+6229-622a, U+622c, U+622e-6234, U+6236-6239, U+623b-6241, U+6243, U+6247-6249, U+624b-624e, U+6251-6255, U+6258, U+625b, U+625e, U+6260, U+6262-6263, U+6266-626d;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-031.woff2") format('woff2');
+  unicode-range: U+626e-6271, U+6273, U+6275-6276, U+6279, U+627c, U+627e-6280, U+6283-6286, U+6289-628a, U+628e, U+6291-6298, U+629a-62a2, U+62a4-62a5, U+62a7-62a8, U+62ab-62ac, U+62b1, U+62b5-62b6, U+62b9, U+62bb-62bd, U+62bf, U+62c2, U+62c4-62dd, U+62df-62e3, U+62e5-62ea, U+62ec-62ef, U+62f1, U+62f3-62f4, U+62f6;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-032.woff2") format('woff2');
+  unicode-range: U+62f7, U+62fc-62ff, U+6301-6302, U+6304, U+6307-6309, U+630d-630e, U+6310-6311, U+6316, U+6319-6326, U+6328, U+632a-632b, U+632f, U+6331-6332, U+6335-6336, U+6339-633a, U+633c-633f, U+6342-6346, U+6349, U+634b-6350, U+6353, U+6355, U+6357, U+635c, U+635e-635f, U+6361-6363, U+6365-6369, U+636b, U+636d-636e, U+6371-6372, U+6374-6377, U+637a-637d, U+6380-6384, U+6386-638a, U+638c, U+638e-638f;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-033.woff2") format('woff2');
+  unicode-range: U+6390, U+6392, U+6396-6399, U+639b, U+639e-63a3, U+63a5, U+63a7-63b4, U+63b7-63b8, U+63ba-63be, U+63c0, U+63c3-63c6, U+63c8-63c9, U+63cd-63d2, U+63d4-63d7, U+63da-63de, U+63e0-63e3, U+63e9-63eb, U+63ed-63ee, U+63f2, U+63f4, U+63f6-63fa, U+63fd-6403, U+6405-6407, U+6409-6410, U+6412-6414, U+6416-6417;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-034.woff2") format('woff2');
+  unicode-range: U+6418, U+641b-641c, U+641e-6422, U+6424-6428, U+642a, U+642c-642d, U+642f-6430, U+6432-6436, U+643a, U+643d-6448, U+644a, U+644f, U+6451-6452, U+6454, U+6458, U+645b-645c, U+645e-6460, U+6463, U+6467, U+6469, U+646d, U+646f, U+6473-6474, U+6476, U+6478-647b, U+647d, U+6482-6485, U+6487-6488, U+648c, U+648f-6493, U+6495-6496, U+6499-649a, U+649d-649f, U+64a1-64a7, U+64a9, U+64ab-64ae, U+64b0, U+64b2-64b3, U+64b5, U+64b7;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-035.woff2") format('woff2');
+  unicode-range: U+64b8-64bc, U+64be-64c2, U+64c4-64c5, U+64c7, U+64c9-64cb, U+64cd-64ce, U+64d0, U+64d2-64d5, U+64d7-64d8, U+64da, U+64de, U+64e0-64e7, U+64e9-64ed, U+64ef-64f2, U+64f4, U+64f7, U+64fa-6500, U+6504-6506, U+6509, U+650f, U+6512, U+6514, U+6516, U+6518-6519, U+651b-651d, U+651f, U+6522-6525, U+6529-652c, U+652e-652f, U+6534-6539, U+653b, U+653e-653f, U+6541-6542, U+6545, U+6548-6549, U+654c-654f, U+6551;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-036.woff2") format('woff2');
+  unicode-range: U+6554-6559, U+655b, U+655d-655e, U+6560, U+6562-6563, U+6566-6567, U+656a-656d, U+6570, U+6572, U+6574-6575, U+6577-6578, U+657a-657b, U+657d, U+6581-6583, U+6585, U+6587-6589, U+658b-658c, U+658e, U+6590-6593, U+6595, U+6597, U+6599, U+659b-659d, U+659f-65a1, U+65a4-65a5, U+65a7-65a9, U+65ab-65b0, U+65b2, U+65b5-65b7, U+65b9, U+65bc-65be, U+65c1-65c6, U+65c9, U+65cb-65cc, U+65ce-65d0, U+65d2, U+65d6-65d7, U+65db, U+65dd, U+65df-65e8;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-037.woff2") format('woff2');
+  unicode-range: U+65e9, U+65ec-65f1, U+65f6-65fa, U+65fe, U+6600, U+6602-6603, U+6606-6607, U+660a, U+660c, U+660e-660f, U+6613-6615, U+6619-661a, U+661c-661d, U+661f-6620, U+6625, U+6627-6628, U+662c-662d, U+662f-6631, U+6634-6636, U+663b-663e, U+6641-6644, U+6649, U+664b-664c, U+664f, U+6652-6657, U+665a, U+665d, U+665f, U+6661, U+6664, U+6666, U+6668-6669, U+666e-6670, U+6673-6674, U+6676-6677, U+667a-667b, U+667e, U+6681-6682, U+6684, U+6687-6689, U+668c, U+668e, U+6691, U+6696-6698, U+669d, U+66a0, U+66a2, U+66a6-66a8;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-038.woff2") format('woff2');
+  unicode-range: U+66ab, U+66ae, U+66b1, U+66b4, U+66b9, U+66be, U+66c4, U+66c6-66c7, U+66c9, U+66cf, U+66d6, U+66d9, U+66db-66dd, U+66e0-66e1, U+66e6, U+66e8-66e9, U+66ec, U+66f0-66f4, U+66f7-66f9, U+66fc-6700, U+6703, U+6708-670b, U+670d, U+6710, U+6714-6715, U+6717, U+671b, U+671d, U+671f, U+6722-6723, U+6726-6728, U+672a-672f, U+6731, U+6734-6736, U+673a, U+673d, U+6740-6743, U+6746, U+6748-6749, U+674c, U+674e-6751, U+6753, U+6756, U+675c, U+675e-6765, U+6768-676a, U+676d, U+676f-6772;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-039.woff2") format('woff2');
+  unicode-range: U+6773, U+6775, U+6777, U+677c, U+677e-677f, U+6781, U+6784, U+6787, U+6789, U+678b, U+6790, U+6792-6793, U+6795, U+6797-6798, U+679a, U+679c-679e, U+67a0-67a3, U+67a5, U+67a7-67a8, U+67aa-67ab, U+67ad, U+67af-67b0, U+67b3-67b8, U+67c1, U+67c3-67c4, U+67cf-67d4, U+67d8-67da, U+67dc-67e0, U+67e2, U+67e5, U+67e9, U+67ec, U+67ef-67f1, U+67f3-67f5, U+67f9-67fb, U+67fd-6805, U+6807-680c, U+680e-680f, U+6811-6813, U+6816-6817, U+681d-681e, U+6821-6822, U+6829;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-040.woff2") format('woff2');
+  unicode-range: U+682a, U+6830-6834, U+6837-6839, U+683c-683e, U+6840-6846, U+6848-684a, U+684c, U+684e, U+6850-6855, U+685c-685d, U+685f-6869, U+686b, U+686e, U+6870, U+6874, U+6876-6877, U+687a, U+687f, U+6881, U+6883, U+6885-6886, U+688f, U+6893-6894, U+6897-6898, U+689d, U+689f, U+68a2, U+68a6-68a8, U+68ad, U+68af-68b1, U+68b3, U+68b5-68b6, U+68ba-68bc, U+68c0, U+68c2-68c4, U+68c9-68cb, U+68cd, U+68d2, U+68d5-68d8, U+68da, U+68df-68e1, U+68e3, U+68e7, U+68ec;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-041.woff2") format('woff2');
+  unicode-range: U+68ee, U+68f0-68f2, U+68f5, U+68f9-68fa, U+68fc, U+6900-6901, U+6905, U+6909, U+690b, U+690d-6910, U+6912, U+6917, U+6919-691a, U+691c, U+691f-6921, U+6923-6925, U+692d, U+6930, U+6934, U+6936-6937, U+6939, U+693d-693f, U+6942, U+694a, U+6953-6954, U+6957, U+695a, U+695d-695e, U+6960, U+6962-6963, U+6965-6966, U+6968, U+696b, U+696d-696e, U+6971, U+6973, U+6975, U+6977-6979, U+697c-697d, U+6980-6982, U+6984, U+6986-698a, U+698d, U+6994-6995, U+6998, U+699b-699c, U+69a6-69a8, U+69aa-69ab, U+69ad-69ae, U+69b1, U+69b4, U+69b7, U+69bb-69bc, U+69bf-69c1, U+69c3, U+69c7, U+69ca-69cb;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-042.woff2") format('woff2');
+  unicode-range: U+69cc-69ce, U+69d0-69d1, U+69d3-69d6, U+69d8-69db, U+69df-69e0, U+69e7-69ea, U+69ed, U+69f2-69f3, U+69fb-69fd, U+69ff, U+6a01-6a02, U+6a05, U+6a0a-6a0b, U+6a10-6a11, U+6a13, U+6a17-6a19, U+6a1e-6a1f, U+6a21, U+6a23, U+6a28-6a2b, U+6a2f, U+6a31, U+6a35, U+6a37-6a3a, U+6a3d-6a3e, U+6a44, U+6a47-6a48, U+6a4b, U+6a50, U+6a58-6a59, U+6a5b, U+6a5f, U+6a61-6a62, U+6a64-6a65, U+6a6b, U+6a71-6a72, U+6a79, U+6a7c, U+6a7f-6a81, U+6a84, U+6a87, U+6a89, U+6a8e, U+6a90-6a91, U+6a94, U+6a97, U+6a9c, U+6a9f-6aa0, U+6aa2-6aa4, U+6aa9, U+6aab-6aac, U+6aae-6aaf, U+6ab3, U+6ab8;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-043.woff2") format('woff2');
+  unicode-range: U+6abb, U+6ac2-6ac3, U+6ac8, U+6ad3, U+6ada-6adf, U+6ae4-6ae5, U+6ae7-6ae8, U+6aea-6aec, U+6af3, U+6af8, U+6afa-6afb, U+6b04-6b05, U+6b0a, U+6b0f, U+6b12, U+6b16, U+6b1d-6b1e, U+6b20-6b24, U+6b27, U+6b2c, U+6b32, U+6b35, U+6b37, U+6b39-6b3a, U+6b3d-6b3e, U+6b43, U+6b46-6b47, U+6b49, U+6b4c, U+6b4e, U+6b50, U+6b53, U+6b59, U+6b5b, U+6b5f, U+6b61-6b67, U+6b69-6b6a, U+6b6f, U+6b72-6b74, U+6b77-6b7c, U+6b7f-6b84, U+6b86-6b87, U+6b89-6b8b, U+6b8d, U+6b92-6b93, U+6b96, U+6b98, U+6b9a-6b9b, U+6b9e, U+6ba1, U+6ba4, U+6ba8;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-044.woff2") format('woff2');
+  unicode-range: U+6baa-6bab, U+6bad-6baf, U+6bb1-6bb5, U+6bb7, U+6bba-6bbd, U+6bbf-6bc2, U+6bc5-6bc6, U+6bcb, U+6bcd-6bcf, U+6bd2-6bd9, U+6bdb, U+6bdf, U+6be1, U+6be7-6be8, U+6bea-6bec, U+6bef, U+6bf3, U+6bf5, U+6bf7, U+6bf9, U+6bfd, U+6bff, U+6c02, U+6c04-6c0a, U+6c0c-6c0d, U+6c0f-6c11, U+6c13-6c1b, U+6c1d, U+6c1f-6c30, U+6c32-6c35, U+6c37-6c39;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-045.woff2") format('woff2');
+  unicode-range: U+6c3d-6c42, U+6c46-6c47, U+6c49-6c4a, U+6c4d-6c50, U+6c54-6c55, U+6c57, U+6c59-6c61, U+6c64, U+6c67-6c6a, U+6c6d, U+6c70, U+6c72, U+6c74, U+6c76, U+6c79-6c7a, U+6c7d-6c7e, U+6c81-6c83, U+6c85-6c89, U+6c8c-6c8d, U+6c8f-6c90, U+6c92-6c96, U+6c99-6c9b, U+6c9f, U+6ca1-6cae, U+6cb1-6cb4, U+6cb8-6cb9, U+6cbb-6cbf, U+6cc1-6cc2, U+6cc4-6cc6, U+6cc9-6cca, U+6ccc, U+6cd0-6cd1;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-046.woff2") format('woff2');
+  unicode-range: U+6cd3-6cd7, U+6cda-6cdb, U+6cdd-6cde, U+6ce0-6ce3, U+6ce5, U+6ce8, U+6cea-6ceb, U+6cee-6cf3, U+6cf5-6cf8, U+6cfa-6cfe, U+6d01, U+6d04, U+6d07, U+6d0a-6d0c, U+6d0e-6d0f, U+6d11-6d12, U+6d17, U+6d19-6d1b, U+6d1e-6d1f, U+6d25, U+6d27-6d2b, U+6d2e, U+6d31-6d36, U+6d38-6d3f, U+6d41, U+6d43-6d4b, U+6d4d-6d55, U+6d59-6d5a, U+6d5c, U+6d5e, U+6d60-6d61, U+6d63, U+6d65;
+}
+
+@font-face {
+  font-family: 'Huiwen-mincho';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Huiwen-Mincho.CJK-Unified-Ideographs-047.woff2") format('woff2');
+  unicode-range: U+6d66, U+6d69-6d6a, U+6d6c-6d6f, U+6d74, U+6d77-6d79, U+6d7c, U+6d82, U+6d85, U+6d87-6d8a, U+6d8c, U+6d8e, U+6d91-6d96, U+6d98-6d99, U+6d9b-6da4, U+6da6-6dab, U+6dae-6daf, U+6db2, U+6db4-6db5, U+6db8, U+6dbc, U+6dbf-6dc0, U+6dc4-6dc7, U+6dcb-6dcc, U+6dd1-6dd2, U+6dd6, U+6dd8-6ddb, U+6ddd-6de1, U+6de4-6de6, U+6de8-6dec, U+6dee, U+6df1, U+6df3, U+6df5-6dfc, U+6e05, U+6e07-6e0b;
+}
