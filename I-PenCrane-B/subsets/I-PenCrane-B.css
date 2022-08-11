@@ -1,0 +1,1705 @@
+/**
+ * Font Splitter
+ * https://github.com/VdustR/font-splitter
+ */
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Basic-Latin-1.woff2) format('woff2');
+  unicode-range: U+0-4f;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Basic-Latin-2.woff2) format('woff2');
+  unicode-range: U+50-7f;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Latin-1-Supplement.woff2) format('woff2');
+  unicode-range: U+80-a0, U+a7-a8, U+af-b1, U+b7, U+d7, U+f7-f8;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Latin-Extended-A.woff2) format('woff2');
+  unicode-range: U+14b, U+153;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.IPA-Extensions.woff2) format('woff2');
+  unicode-range: U+250, U+254, U+25b, U+26a, U+275, U+283, U+28a;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Spacing-Modifier-Letters.woff2) format('woff2');
+  unicode-range: U+2c6-2c7, U+2c9-2cb, U+2cd, U+2d9;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Greek-and-Coptic.woff2) format('woff2');
+  unicode-range: U+391-3a1, U+3a3-3a9, U+3b1-3c1, U+3c3-3c9;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Cyrillic.woff2) format('woff2');
+  unicode-range: U+401, U+410-44f, U+451;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.General-Punctuation.woff2) format('woff2');
+  unicode-range: U+2013-2014, U+2018-2019, U+201c-201d, U+2025-2027, U+2032, U+2035, U+203b;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Letterlike-Symbols.woff2) format('woff2');
+  unicode-range: U+2103, U+2105, U+2109, U+2116, U+2121;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Number-Forms.woff2) format('woff2');
+  unicode-range: U+2160-2169, U+2170-2179;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Arrows.woff2) format('woff2');
+  unicode-range: U+2190-2193, U+2196-2199, U+21b8-21b9, U+21e7;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Mathematical-Operators.woff2) format('woff2');
+  unicode-range: U+2215, U+221a, U+221e-2220, U+2223, U+2225, U+2229-222b, U+222e, U+2234-2235, U+2252, U+2260-2261, U+2266-2267, U+2295, U+2299, U+22a5, U+22bf;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Enclosed-Alphanumerics.woff2) format('woff2');
+  unicode-range: U+2460-2469, U+2474-247d;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Box-Drawing.woff2) format('woff2');
+  unicode-range: U+2500, U+2502, U+250c, U+2510, U+2514, U+2518, U+251c, U+2524, U+252c, U+2534, U+253c, U+2550-2574;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Block-Elements.woff2) format('woff2');
+  unicode-range: U+2581-258f, U+2594-2595;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Geometric-Shapes.woff2) format('woff2');
+  unicode-range: U+25a0-25a1, U+25b2-25b3, U+25bc-25bd, U+25c6-25c7, U+25cb, U+25ce-25cf, U+25e2-25e5;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Miscellaneous-Symbols.woff2) format('woff2');
+  unicode-range: U+2605-2606, U+2640, U+2642;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Dingbats.woff2) format('woff2');
+  unicode-range: U+273d;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Radicals-Supplement.woff2) format('woff2');
+  unicode-range: U+2e80, U+2e84, U+2e86-2e88, U+2e8a, U+2e8c-2e8d, U+2e95, U+2e9c-2e9d, U+2ea5, U+2ea7, U+2eaa, U+2eac, U+2eae, U+2eb6, U+2ebc, U+2ebe, U+2ec6, U+2eca, U+2ecc-2ecd, U+2ecf, U+2ed6-2ed7, U+2ede, U+2ee3;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Kangxi-Radicals.woff2) format('woff2');
+  unicode-range: U+2f33;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Symbols-and-Punctuation.woff2) format('woff2');
+  unicode-range: U+3000-3003, U+3005-3012, U+3014-3015, U+301d-301e, U+3021-3029;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Hiragana-1.woff2) format('woff2');
+  unicode-range: U+3041-3090;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Hiragana-2.woff2) format('woff2');
+  unicode-range: U+3091-3093, U+309b-309e;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Katakana-1.woff2) format('woff2');
+  unicode-range: U+30a1-30f0;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Katakana-2.woff2) format('woff2');
+  unicode-range: U+30f1-30f6, U+30fc-30fe;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Bopomofo.woff2) format('woff2');
+  unicode-range: U+3105-3129;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.Enclosed-CJK-Letters-and-Months.woff2) format('woff2');
+  unicode-range: U+3220-3229, U+3231, U+3280-3289, U+32a3;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Compatibility.woff2) format('woff2');
+  unicode-range: U+338e-338f, U+339c-339e, U+33a1, U+33c4, U+33ce, U+33d1-33d2, U+33d5;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-Extension-A.woff2) format('woff2');
+  unicode-range: U+3451, U+34df, U+34e4, U+35a1, U+35ad, U+35bf, U+35ce, U+35fe, U+362d, U+39ec, U+39fe, U+3a18, U+3a52, U+3a57, U+3a67, U+3b39, U+3ddb, U+3deb, U+3e74, U+406a, U+40df, U+44ea, U+4882, U+4989, U+4c7d;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-001.woff2) format('woff2');
+  unicode-range: U+4e00-4e01, U+4e03, U+4e07-4e11, U+4e14-4e16, U+4e18-4e19, U+4e1e-4e1f, U+4e21, U+4e26, U+4e2a-4e2b, U+4e2d-4e2e, U+4e30-4e33, U+4e36, U+4e38-4e39, U+4e3b-4e3c, U+4e3f, U+4e42-4e43, U+4e45, U+4e47-4e48, U+4e4b, U+4e4d-4e4f, U+4e52-4e53, U+4e56, U+4e58-4e5a, U+4e5c-4e5f, U+4e69-4e6a, U+4e73, U+4e78, U+4e7e-4e7f, U+4e82-4e86, U+4e88, U+4e8b-4e8e, U+4e91-4e95, U+4e98-4e99, U+4e9b;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-002.woff2) format('woff2');
+  unicode-range: U+4e9e-4ea2, U+4ea4-4ea6, U+4ea8, U+4eab-4eae, U+4eb3, U+4eb6, U+4eb9-4eba, U+4ec0-4ec4, U+4ec6-4ecb, U+4ecd-4ecf, U+4ed4-4eda, U+4edc-4edf, U+4ee1, U+4ee3-4ee5, U+4ee8-4ee9, U+4eee, U+4ef0-4ef7, U+4efb, U+4efd, U+4eff-4f02, U+4f04-4f05, U+4f08-4f0b, U+4f0d-4f15, U+4f18-4f19;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-003.woff2) format('woff2');
+  unicode-range: U+4f1d, U+4f22, U+4f2c-4f2d, U+4f2f-4f30, U+4f33-4f34, U+4f36, U+4f38, U+4f3a-4f3f, U+4f41, U+4f43, U+4f46-4f49, U+4f4c-4f64, U+4f67, U+4f69-4f6c, U+4f6e-4f70, U+4f73-4f89, U+4f8b, U+4f8d;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-004.woff2) format('woff2');
+  unicode-range: U+4f8f-4f92, U+4f94-4f98, U+4f9a-4f9e, U+4fae-4faf, U+4fb2-4fb3, U+4fb5-4fb7, U+4fb9-4fbb, U+4fbf-4fc5, U+4fc7, U+4fc9-4fcb, U+4fcd-4fd1, U+4fd3-4fd4, U+4fd6-4fe1, U+4fec, U+4fee-4fef, U+4ff1, U+4ff3-4ff8, U+4ffa, U+4ffe, U+5000, U+5005-5007, U+5009, U+500b-500f, U+5011-5014;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-005.woff2) format('woff2');
+  unicode-range: U+5015-501c, U+501e-5023, U+5025-502d, U+502f-5031, U+5033, U+5035, U+5037, U+503c, U+5040-5041, U+5043, U+5045-504f, U+5051, U+5053, U+5055, U+5057, U+505a-5065, U+5068-506b, U+506d-5070, U+5072-5078, U+507a, U+507d, U+5080, U+5082-5083;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-006.woff2) format('woff2');
+  unicode-range: U+5085, U+5087, U+508b-508e, U+5091-5092, U+5094-5096, U+5098-509e, U+50a2-50a3, U+50ac-50b8, U+50ba-50bb, U+50bd-50bf, U+50c1-50c2, U+50c4-50cb, U+50cd-50cf, U+50d1, U+50d3-50d7, U+50da-50db, U+50dd-50de, U+50e0, U+50e3-50ea, U+50ec-50f1, U+50f3, U+50f5-50f6, U+50f8;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-007.woff2) format('woff2');
+  unicode-range: U+50f9, U+50fb, U+50fd-5100, U+5102-510c, U+5110-5115, U+5117-5118, U+511a, U+511c, U+511f-5122, U+5124-5126, U+5129-512a, U+512d-512e, U+5130-5135, U+5137-513d, U+513f-5141, U+5143-5149, U+514b-514d, U+5152, U+5154-5155, U+5157, U+5159-515f, U+5161-5163, U+5165, U+5167;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-008.woff2) format('woff2');
+  unicode-range: U+5168-516e, U+5171, U+5175-5178, U+517c, U+5180, U+5182, U+5185-518a, U+518d, U+518f, U+5191-5198, U+519a, U+519e, U+51a0, U+51a2, U+51a4-51a5, U+51a7, U+51aa-51ac, U+51b0-51b7, U+51b9, U+51bc-51be, U+51c4-51c6, U+51c8-51ce, U+51d0, U+51d4, U+51d7-51d8, U+51dc-51de, U+51e0-51e1, U+51e7, U+51e9-51ea, U+51ed, U+51f0-51f1, U+51f3-51f4;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-009.woff2) format('woff2');
+  unicode-range: U+51f5-51f6, U+51f8-51fa, U+51fd, U+5200-5203, U+5206-520a, U+520c, U+520e, U+5210-5213, U+5216-5217, U+521c-521e, U+5221, U+5224-5226, U+5228-522a, U+522e, U+5230-5233, U+5235-5238, U+523a-523b, U+5241, U+5243-5244, U+5246-5247, U+5249-524e, U+5252, U+5254-5256, U+525a-525f, U+5261-5262, U+5269-526f, U+5272, U+5274-5275, U+5277-5278, U+527a;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-010.woff2) format('woff2');
+  unicode-range: U+527b-527d, U+527f-5284, U+5287-528d, U+528f, U+5291, U+5293, U+5296-5299, U+529b, U+529f-52a0, U+52a3, U+52a6, U+52a9-52ae, U+52b9, U+52bb-52bc, U+52be, U+52c0-52c3, U+52c5, U+52c7, U+52c9, U+52cd, U+52d2-52d3, U+52d5-52d9, U+52db, U+52dd-52df, U+52e2-52e4, U+52e6, U+52e9, U+52eb, U+52ef-52f1, U+52f3-52f5, U+52f7-52fc, U+52fe-52ff, U+5302, U+5305-5306;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-011.woff2) format('woff2');
+  unicode-range: U+5308-530b, U+530d-5312, U+5315-5317, U+5319-531a, U+531c-531d, U+531f-5323, U+532a, U+532d, U+532f-5331, U+5334, U+5337-5339, U+533c-5341, U+5343-5345, U+5347-534a, U+534c-534d, U+5351-5354, U+5357, U+535a, U+535c, U+535e, U+5360-5361, U+5363, U+5366, U+5369, U+536c, U+536e-5375, U+5377-5379, U+537b-537c, U+537f, U+5382, U+5384, U+538a, U+538e-538f, U+5392;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-012.woff2) format('woff2');
+  unicode-range: U+5394, U+5396-539a, U+539c-53a0, U+53a4-53a8, U+53ac-53ad, U+53b2, U+53b4, U+53b6, U+53b9, U+53bb, U+53c1, U+53c3, U+53c8-53cd, U+53d4, U+53d6-53d7, U+53d9, U+53db, U+53df-53e6, U+53e8-53f3, U+53f5-53f6, U+53f8, U+53fb-53fc, U+53fe, U+5401, U+5403-5404, U+5406-5414;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-013.woff2) format('woff2');
+  unicode-range: U+5416, U+5418-5419, U+541b-5421, U+5424-542e, U+5430-5431, U+5433, U+5435-5439, U+543b-543e, U+5440-5443, U+5445-5448, U+544a, U+544d-544f, U+5454, U+5460-5468, U+546a-546c, U+546f-5478, U+547a-5482, U+5484, U+5486-5487;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-014.woff2) format('woff2');
+  unicode-range: U+5488, U+548b-5498, U+549a, U+54a0-54a2, U+54a4-54b3, U+54b6-54b8, U+54ba-54c9, U+54cb, U+54cd-54cf, U+54d6, U+54de, U+54e0-54e2, U+54e4-54eb, U+54ed-54ee, U+54f1-54f3, U+54f7-54f8, U+54fa-54fb;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-015.woff2) format('woff2');
+  unicode-range: U+54fc-54fd, U+54ff, U+5501-550c, U+550e-5514, U+5517, U+551a, U+551e, U+5526-5527, U+552a, U+552c-5539, U+553b-553c, U+553e, U+5540-5541, U+5543-5546, U+5548, U+554a-554b, U+554d-5553, U+5555-5557, U+555c-555f, U+5561-5566, U+5569-556b, U+5571-5572, U+5575;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-016.woff2) format('woff2');
+  unicode-range: U+5576-5577, U+5579, U+557b-5584, U+5586-558f, U+5591-5595, U+5598-559a, U+559c-559d, U+559f, U+55a1-55ae, U+55b1-55b3, U+55b5, U+55ba-55bc, U+55bf-55c0, U+55c2-55d7, U+55d9;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-017.woff2) format('woff2');
+  unicode-range: U+55da-55df, U+55e1-55e9, U+55ec, U+55ef-55f2, U+55f6-55f7, U+55f9-55fa, U+55fc-5602, U+5604-5606, U+5608-5609, U+560c-5610, U+5612-5617, U+561b-561f, U+5622-5623, U+5625, U+5627, U+5629-562a, U+562c-5630, U+5632-5636, U+5638-563b, U+563d-5643, U+5645;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-018.woff2) format('woff2');
+  unicode-range: U+5646, U+5648-564a, U+564c-564f, U+5652-5654, U+5657-565a, U+565d-565e, U+5660, U+5662-5666, U+5668-5674, U+5676-5679, U+567e-5687, U+5689, U+568c-5690, U+5692-5693, U+5695, U+5697-569a, U+569c-569d, U+569f, U+56a1, U+56a4-56a8, U+56aa-56ae, U+56b1-56b3;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-019.woff2) format('woff2');
+  unicode-range: U+56b4-56b7, U+56b9, U+56bc-56c3, U+56c5-56c6, U+56c8-56cd, U+56d1, U+56d3-56d4, U+56d6-56d7, U+56da-56db, U+56dd-56e1, U+56e4-56e5, U+56e7, U+56ea-56eb, U+56ee, U+56f0, U+56f2, U+56f7, U+56f9-56fa, U+56fd, U+56ff, U+5701-5704, U+5707-570d, U+5712-5714, U+5716, U+5718, U+571a-571c, U+571e-5720, U+5722-5723, U+5728-572a, U+572c-5730, U+5733-5734;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-020.woff2) format('woff2');
+  unicode-range: U+573b, U+573e, U+5740-5742, U+5745, U+5747, U+5749-5752, U+5761-5762, U+5764, U+5766, U+5768-576b, U+576d, U+576f-5777, U+577a-577d, U+5780, U+5782-5783, U+578b-578c, U+578f, U+5793-5795, U+5797-579b, U+579d-57a0, U+57a2-57a5, U+57ae, U+57b0, U+57b5-57b6, U+57b8-57ba, U+57bc-57bd, U+57bf, U+57c1-57c3, U+57c6-57c7, U+57cb-57cc, U+57ce-57cf;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-021.woff2) format('woff2');
+  unicode-range: U+57d0, U+57d2, U+57d4-57d5, U+57d7, U+57dc, U+57de-57e5, U+57e7, U+57e9, U+57ec-57ee, U+57f0-57fd, U+5800-580e, U+5810, U+5814, U+5819, U+581b-581e, U+5820-5821, U+5823-5825, U+5827-582a, U+582c-583b;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-022.woff2) format('woff2');
+  unicode-range: U+583d, U+583f-5840, U+5848-584f, U+5851-5855, U+5857-585b, U+585d-585e, U+5861-5865, U+5868-5869, U+586b, U+586d, U+586f, U+5871-5872, U+5874-5876, U+5879-5883, U+5885-588b, U+588e-5891, U+5893-5894, U+5898, U+589c-58a1, U+58a3, U+58a5-58a6, U+58a8-58a9, U+58ab-58ac, U+58ae-58af, U+58b1, U+58b3;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-023.woff2) format('woff2');
+  unicode-range: U+58ba-58bf, U+58c1-58c2, U+58c5-58c9, U+58ce-58cf, U+58d1-58d6, U+58d8-58db, U+58dd-58df, U+58e2-58e4, U+58e7-58e9, U+58eb-58ec, U+58ef, U+58f3-58f4, U+58f9-58fa, U+58fc-58ff, U+5903, U+5906, U+590a, U+590c-590f, U+5912, U+5914-5917, U+5919-591a, U+591c, U+5920, U+5922, U+5924-5925, U+5927, U+5929-592f, U+5931, U+5937-5938, U+593c, U+593e, U+5940, U+5944-5945;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-024.woff2) format('woff2');
+  unicode-range: U+5947-594a, U+594e-5951, U+5953-5955, U+5957-5958, U+595a, U+595c, U+5960-5962, U+5967, U+5969-596b, U+596d-596e, U+5970-5974, U+5976-5979, U+597b-5985, U+598a, U+598d-5990, U+5992-5993, U+5996-5999, U+599d-599e, U+59a0-59a8, U+59ac, U+59ae-59af, U+59b1-59b6, U+59b9-59bd;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-025.woff2) format('woff2');
+  unicode-range: U+59be, U+59c0-59c1, U+59c3, U+59c5-59c8, U+59ca-59d4, U+59d6, U+59d8, U+59da-59de, U+59e0-59e1, U+59e3-59e6, U+59e8-59ea, U+59ec-59ee, U+59f1-59f8, U+59fa-5a01, U+5a03, U+5a09-5a0a, U+5a0c, U+5a0f, U+5a11, U+5a13, U+5a15-5a19, U+5a1b-5a1c, U+5a1e-5a20, U+5a23, U+5a25, U+5a29, U+5a2d-5a2e, U+5a33, U+5a35-5a37;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-026.woff2) format('woff2');
+  unicode-range: U+5a38-5a39, U+5a3c, U+5a3e, U+5a40-5a44, U+5a46-5a4a, U+5a4c-5a4d, U+5a50-5a53, U+5a55-5a58, U+5a5a-5a60, U+5a62, U+5a64-5a67, U+5a69-5a6a, U+5a6c-5a6d, U+5a70, U+5a77-5a78, U+5a7a-5a7f, U+5a83-5a84, U+5a8a-5a8c, U+5a8e-5a90, U+5a92-5a95, U+5a97, U+5a9a-5a9f, U+5aa2, U+5aa5-5aa7, U+5aa9, U+5aac, U+5aae-5ab3;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-027.woff2) format('woff2');
+  unicode-range: U+5ab4-5ac2, U+5ac4, U+5ac6-5acd, U+5ad5-5ae3, U+5ae5-5ae6, U+5ae8-5aee, U+5af2-5afb, U+5afd, U+5aff, U+5b01-5b03, U+5b05, U+5b07-5b09, U+5b0b-5b0c, U+5b0f-5b10, U+5b13-5b14, U+5b16-5b17, U+5b19-5b1b, U+5b1d-5b1e;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-028.woff2) format('woff2');
+  unicode-range: U+5b20-5b21, U+5b23-5b28, U+5b2a, U+5b2c-5b30, U+5b32, U+5b34, U+5b38, U+5b3c-5b40, U+5b43, U+5b45, U+5b47-5b48, U+5b4b-5b4e, U+5b50-5b51, U+5b53-5b58, U+5b5a-5b5d, U+5b5f, U+5b62-5b65, U+5b69, U+5b6b-5b6e, U+5b70-5b73, U+5b75, U+5b77-5b78, U+5b7a-5b7b, U+5b7d, U+5b7f-5b81, U+5b83-5b85, U+5b87-5b89, U+5b8b-5b8f, U+5b92-5b93, U+5b95, U+5b97;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-029.woff2) format('woff2');
+  unicode-range: U+5b98-5b9d, U+5ba2-5ba8, U+5bac-5bae, U+5bb0, U+5bb3-5bb6, U+5bb8-5bb9, U+5bbf-5bc7, U+5bca-5bce, U+5bd0-5bd4, U+5bd6, U+5bd8-5bd9, U+5bde-5bec, U+5bee-5bf2, U+5bf5-5bf6, U+5bf8, U+5bfa, U+5c01, U+5c03-5c05, U+5c07-5c0d;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-030.woff2) format('woff2');
+  unicode-range: U+5c0e-5c12, U+5c15-5c16, U+5c1a, U+5c1f, U+5c22, U+5c24-5c25, U+5c28, U+5c2a, U+5c2c, U+5c30-5c31, U+5c33, U+5c37-5c3c, U+5c3e-5c41, U+5c44-5c48, U+5c4a-5c51, U+5c54-5c56, U+5c58-5c59, U+5c5c-5c5e, U+5c60, U+5c62-5c65, U+5c67-5c6a, U+5c6c-5c6f, U+5c71, U+5c73-5c74, U+5c79-5c7c, U+5c7e, U+5c86, U+5c88-5c8d, U+5c8f-5c91;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-031.woff2) format('woff2');
+  unicode-range: U+5c92-5c95, U+5c9d, U+5c9f-5cb1, U+5cb3, U+5cb5-5cb8, U+5cc6-5ccc, U+5cce-5cd0, U+5cd2-5cd4, U+5cd6-5cdb, U+5cde-5ce0, U+5ce8, U+5cea, U+5cec-5cf1, U+5cf4, U+5cf6-5cf9, U+5cfb, U+5cfd, U+5cff-5d01, U+5d06-5d07, U+5d0b-5d0f, U+5d11-5d12, U+5d14, U+5d16;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-032.woff2) format('woff2');
+  unicode-range: U+5d17, U+5d19-5d1b, U+5d1d-5d20, U+5d22-5d29, U+5d2e, U+5d30-5d3a, U+5d3c-5d3d, U+5d3f-5d43, U+5d45, U+5d47, U+5d49-5d4c, U+5d4e, U+5d50-5d52, U+5d55, U+5d59, U+5d5e, U+5d62-5d63, U+5d65, U+5d67-5d69, U+5d6b-5d6c, U+5d6f, U+5d71-5d72, U+5d77, U+5d79-5d7a, U+5d7c-5d82, U+5d84, U+5d86-5d8b, U+5d8d, U+5d92-5d94;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-033.woff2) format('woff2');
+  unicode-range: U+5d95, U+5d97, U+5d99-5d9a, U+5d9c-5da2, U+5da7-5daa, U+5dac-5db2, U+5db4-5db5, U+5db7-5db8, U+5dba, U+5dbc-5dbd, U+5dc0, U+5dc2-5dc3, U+5dc6-5dc7, U+5dc9, U+5dcb, U+5dcd, U+5dcf, U+5dd1-5dd6, U+5dd8, U+5ddb, U+5ddd-5de2, U+5de5-5de8, U+5deb, U+5dee, U+5df0-5df4, U+5df7, U+5df9, U+5dfd-5dff, U+5e02-5e04, U+5e06, U+5e0a, U+5e0c, U+5e0e, U+5e11, U+5e14-5e17;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-034.woff2) format('woff2');
+  unicode-range: U+5e18-5e1b, U+5e1d, U+5e1f-5e25, U+5e28-5e29, U+5e2b, U+5e2d, U+5e33-5e34, U+5e36-5e38, U+5e3d-5e3e, U+5e40-5e41, U+5e43-5e45, U+5e4a-5e4f, U+5e53-5e55, U+5e57-5e59, U+5e5b-5e5d, U+5e5f-5e63, U+5e66-5e70, U+5e72-5e76, U+5e78-5e80, U+5e82-5e84, U+5e87-5e8a;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-035.woff2) format('woff2');
+  unicode-range: U+5e8b-5e8d, U+5e8f, U+5e95-5e97, U+5e9a-5e9c, U+5ea0, U+5ea2-5ea8, U+5eaa-5eae, U+5eb0-5eb9, U+5ebe, U+5ec1-5ec2, U+5ec4-5ecc, U+5ece, U+5ed0-5ee3, U+5ee5-5ee9, U+5eec, U+5eee-5eef, U+5ef1-5ef3, U+5ef6-5ef8;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-036.woff2) format('woff2');
+  unicode-range: U+5ef9-5efc, U+5efe-5eff, U+5f01-5f02, U+5f04-5f05, U+5f07-5f08, U+5f0a-5f0b, U+5f0d, U+5f0f, U+5f12-5f15, U+5f17-5f18, U+5f1a-5f1b, U+5f1d, U+5f1f, U+5f22-5f24, U+5f26-5f29, U+5f2d-5f2e, U+5f30-5f31, U+5f33, U+5f35-5f38, U+5f3c, U+5f40, U+5f43-5f44, U+5f46, U+5f48-5f4c, U+5f4e-5f50, U+5f54, U+5f56-5f59, U+5f5d, U+5f61-5f62, U+5f64-5f65, U+5f67, U+5f69-5f6d, U+5f6f-5f71, U+5f73-5f74, U+5f76-5f79;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-037.woff2) format('woff2');
+  unicode-range: U+5f7c-5f82, U+5f85-5f8c, U+5f90-5f92, U+5f96-5f99, U+5f9b-5f9c, U+5f9e-5fa1, U+5fa5-5faf, U+5fb2, U+5fb5-5fb7, U+5fb9, U+5fbb-5fc1, U+5fc3, U+5fc5, U+5fc9, U+5fcc-5fcd, U+5fcf-5fd2, U+5fd4-5fd9, U+5fdd-5fe1, U+5fe3-5fe5, U+5fe8, U+5fea-5feb, U+5fed-5fef;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-038.woff2) format('woff2');
+  unicode-range: U+5ff1, U+5ff3-5ff5, U+5ff7-5ff8, U+5ffa-5ffb, U+5ffd, U+5fff-6000, U+6009-6017, U+6019-601e, U+6020-6022, U+6024-602f, U+6031-6035, U+6037, U+6039, U+6040-6047, U+6049, U+604c-604d, U+6050, U+6052-6055, U+6058-605b, U+605d-605f, U+6062-6064;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-039.woff2) format('woff2');
+  unicode-range: U+6065-6070, U+6072, U+607f-6081, U+6083-608a, U+608c-608e, U+6090, U+6092, U+6094-6097, U+609a-609d, U+609f-60a0, U+60a2-60a4, U+60a8, U+60b0-60b2, U+60b4-60c1, U+60c3-60cf, U+60d1, U+60d3-60d5, U+60d8-60da;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-040.woff2) format('woff2');
+  unicode-range: U+60db-60dd, U+60df-60e4, U+60e6, U+60f0-60fc, U+60fe-6101, U+6103-6106, U+6108-610b, U+610d-6110, U+6112-6116, U+6118, U+611a-611d, U+611f, U+6123, U+6127-6129, U+612b-612c, U+612e-612f, U+6132, U+6134, U+6136-6137, U+613b-613c, U+613e-6141, U+6144-614f;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-041.woff2) format('woff2');
+  unicode-range: U+6152-6156, U+6158, U+615a-615b, U+615d-615f, U+6161-6168, U+616a-616c, U+616e, U+6170-6177, U+6179-617a, U+617c-617e, U+6180, U+6182-6183, U+6187, U+6189-618e, U+6190-6194, U+6196, U+619a-619b, U+619d, U+619f, U+61a1-61a2, U+61a4, U+61a7-61b6, U+61b8, U+61ba, U+61bc, U+61be-61bf;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-042.woff2) format('woff2');
+  unicode-range: U+61c1-61c3, U+61c5-61cd, U+61d6, U+61d8, U+61de-61e0, U+61e3-61eb, U+61ed-61ee, U+61f0-61f2, U+61f5-6201, U+6203-6204, U+6207-620a, U+620c-620e, U+6210-6212, U+6214-6216, U+6219-621b, U+621f-6225, U+6227, U+6229-622b, U+622d-622e, U+6230, U+6232-6234, U+6236;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-043.woff2) format('woff2');
+  unicode-range: U+623a, U+623d-6243, U+6246-624b, U+624d-624e, U+6250-6254, U+6258-625c, U+625e, U+6260-6266, U+626d-6274, U+6276-6277, U+6279-6281, U+6283-6284, U+6286-628a, U+628c, U+628e-628f, U+6291-6298, U+629d, U+62a6, U+62a8-62ae;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-044.woff2) format('woff2');
+  unicode-range: U+62af-62b1, U+62b3-62b6, U+62b8-62b9, U+62bb-62bf, U+62c2-62d4, U+62d6-62dc, U+62eb-6303, U+6307-6309, U+630b-6311, U+6313-6316, U+6328;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-045.woff2) format('woff2');
+  unicode-range: U+6329-632d, U+632f, U+6332-6334, U+6336, U+6338-633e, U+6340-6351, U+6354-635a, U+6365, U+6367-6369, U+636b, U+636d-6372, U+6375-6378, U+637a-637d, U+6380-6385, U+6387-638a, U+638c-6392, U+6394, U+6396;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-046.woff2) format('woff2');
+  unicode-range: U+6397-6399, U+639b-63a5, U+63a7-63b1, U+63b9, U+63bd-63be, U+63c0, U+63c2-63d3, U+63d5-63e1, U+63e3-63eb, U+63ed-63f6, U+63f8;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-047.woff2) format('woff2');
+  unicode-range: U+63f9, U+63fc, U+63fe, U+6406-6407, U+6409-6410, U+6412-6418, U+641a-641c, U+641e-6428, U+642a-6430, U+6432-6437, U+6439-643a, U+643d-6441, U+6443, U+644b, U+644d-644e, U+6450-6454, U+6458-6459, U+645b-6461, U+6465-6469, U+646b-646d;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-048.woff2) format('woff2');
+  unicode-range: U+646e-6470, U+6472-647b, U+647d, U+647f, U+6482, U+6485, U+6487-648d, U+648f-6493, U+6495-649a, U+649c-64a0, U+64a2-64a6, U+64a9, U+64ab-64ae, U+64b0-64b4, U+64bb-64bf, U+64c1-64c5, U+64c7, U+64c9-64cb, U+64cd-64d0, U+64d2, U+64d4, U+64d6-64da;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-049.woff2) format('woff2');
+  unicode-range: U+64db, U+64dd, U+64e0, U+64e2-64e4, U+64e6-64e9, U+64eb-64ed, U+64ef-64f4, U+64f7-64f8, U+64fa-6501, U+6503-6504, U+6506-6507, U+6509, U+650c-6510, U+6513-6519, U+651b-651e, U+6520-6526, U+6529-6530, U+6532-6534, U+6536-6539, U+653b, U+653d-653f, U+6541, U+6543, U+6545-6546;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-050.woff2) format('woff2');
+  unicode-range: U+6548-654a, U+654d-654f, U+6551, U+6553-6559, U+655c-655e, U+6562-6568, U+656a, U+656c, U+656f, U+6572-657c, U+657f-6584, U+6587, U+658c, U+6590-6592, U+6594-6597, U+6599, U+659b-65a2, U+65a4-65a5, U+65a7-65a8, U+65aa-65ac, U+65ae-65b0, U+65b2-65b3, U+65b6-65b9, U+65bb-65bc;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-051.woff2) format('woff2');
+  unicode-range: U+65bd, U+65bf, U+65c1-65c6, U+65cb-65d0, U+65d2-65d3, U+65d6-65d7, U+65da-65db, U+65dd-65df, U+65e1-65e2, U+65e5-65e6, U+65e8-65e9, U+65ec-65f5, U+65fa-65fd, U+6600, U+6602-6615, U+661c-661d, U+661f-6622, U+6624-6628, U+662b, U+662d-662f, U+6631;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-052.woff2) format('woff2');
+  unicode-range: U+6632-6636, U+6639-663a, U+6641-6643, U+6645, U+6647, U+6649-664c, U+664f, U+6651-6652, U+6659-665f, U+6661-6662, U+6664-6666, U+6668, U+666a, U+666c, U+666e-6672, U+6674, U+6676-667c, U+667e, U+6680, U+6684, U+6686-668d, U+6690-6691, U+6694-6699, U+669d, U+669f-66a2, U+66a8-66ab, U+66ae-66b2;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-053.woff2) format('woff2');
+  unicode-range: U+66b4-66b5, U+66b7-66bb, U+66bd-66be, U+66c0, U+66c4, U+66c6-66cc, U+66cf, U+66d2, U+66d6, U+66d8-66de, U+66e0, U+66e3-66e4, U+66e6, U+66e8-66e9, U+66eb-66ee, U+66f0-66f4, U+66f6-66f9, U+66fc, U+66fe-6701, U+6703-6705, U+6708-670b, U+670d, U+670f-6710, U+6712-6715, U+6717-6718, U+671b, U+671d, U+671f-6723, U+6726-6728, U+672a-672b;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-054.woff2) format('woff2');
+  unicode-range: U+672c-672e, U+6731, U+6733-6736, U+6738-673f, U+6745-6749, U+674b-6751, U+6753, U+6755-6757, U+6759-675a, U+675c-6761, U+6767, U+676a, U+676c-676d, U+676f-677f, U+6781, U+6783-6787, U+6789, U+678b-678e, U+6790-6795, U+6797-6798;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-055.woff2) format('woff2');
+  unicode-range: U+6799-679a, U+679c-679d, U+679f, U+67ae-67bb, U+67c0-67c6, U+67c8-67d4, U+67d8-67df, U+67e2-67e7, U+67e9-67f8, U+67fa-67fc, U+67ff, U+6803, U+6812-6814, U+6816-6818;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-056.woff2) format('woff2');
+  unicode-range: U+681a, U+681c-6822, U+6825-6826, U+6828-682b, U+682d-682f, U+6831-6835, U+6838-683d, U+6840-6846, U+6848-6849, U+684b-6851, U+6853-6854, U+686b, U+686d-686f, U+6871-6872, U+6874-6879, U+687b-6883, U+6885-6887, U+6889-688c, U+688f-6894;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-057.woff2) format('woff2');
+  unicode-range: U+6896-6898, U+689b-689d, U+689f-68a4, U+68a7-68b6, U+68c4, U+68c6-68c9, U+68cb-68ce, U+68d0-68d8, U+68da, U+68dc-68e1, U+68e3-68e4, U+68e6-68ec, U+68ee-68fd, U+6904-6905;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-058.woff2) format('woff2');
+  unicode-range: U+6906-6908, U+690a-6915, U+6917, U+6925, U+692a, U+692f-6930, U+6932-6935, U+6937-6939, U+693b-693d, U+693f-6942, U+6944-6945, U+6948-694c, U+694e-694f, U+6951-6954, U+6956-6963, U+6965-6966, U+6968-6971, U+6973-6979;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-059.woff2) format('woff2');
+  unicode-range: U+697a-697b, U+6982-6983, U+6986, U+698a, U+698d-698e, U+6990-6991, U+6993-6997, U+6999-699c, U+699e, U+69a0-69a1, U+69a3-69b1, U+69b3-69b7, U+69b9, U+69bb-69bf, U+69c1-69c4, U+69c6, U+69c9-69d0, U+69d3-69d4, U+69d9, U+69e2, U+69e4-69e8, U+69eb-69ee, U+69f1-69f4, U+69f6-69f7;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-060.woff2) format('woff2');
+  unicode-range: U+69f8, U+69fb-6a02, U+6a04-6a0b, U+6a0d, U+6a0f, U+6a11, U+6a13-6a19, U+6a1b, U+6a1d-6a21, U+6a23, U+6a25-6a28, U+6a2b, U+6a32, U+6a34-6a35, U+6a38-6a41, U+6a44, U+6a46-6a49, U+6a4b, U+6a4d-6a51, U+6a54-6a56, U+6a58-6a5b, U+6a5d-6a62, U+6a64, U+6a66-6a68;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-061.woff2) format('woff2');
+  unicode-range: U+6a69-6a6b, U+6a6d, U+6a6f, U+6a76, U+6a7e-6a81, U+6a83-6a85, U+6a87, U+6a89, U+6a8c-6a8e, U+6a90-6a97, U+6a9a-6a9c, U+6a9e-6aa6, U+6aa8, U+6aac-6aaf, U+6ab3-6ab4, U+6ab6-6abb, U+6abd, U+6ac2-6ac3, U+6ac5-6ac8, U+6acb-6acd, U+6acf-6ad1, U+6ad3, U+6ad9-6ae1, U+6ae5, U+6ae7-6ae8, U+6aea-6aec;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-062.woff2) format('woff2');
+  unicode-range: U+6aee-6af1, U+6af3, U+6af8-6afc, U+6b00, U+6b02-6b04, U+6b08-6b0b, U+6b0f-6b13, U+6b16-6b1a, U+6b1e-6b21, U+6b23, U+6b25, U+6b28, U+6b2c-6b2d, U+6b2f, U+6b31-6b34, U+6b36-6b3f, U+6b41-6b43, U+6b45-6b4e, U+6b50-6b51, U+6b54-6b56, U+6b59, U+6b5b-6b5c, U+6b5e-6b64;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-063.woff2) format('woff2');
+  unicode-range: U+6b65-6b67, U+6b6a, U+6b6d, U+6b72, U+6b76-6b79, U+6b7b, U+6b7e-6b80, U+6b82-6b84, U+6b86, U+6b88-6b8a, U+6b8c-6b8f, U+6b91, U+6b94-6b99, U+6b9b, U+6b9e-6ba0, U+6ba2-6ba7, U+6baa-6bab, U+6bad-6bb0, U+6bb2-6bb3, U+6bb5-6bb7, U+6bba, U+6bbc-6bbd, U+6bbf-6bc0, U+6bc3-6bcd, U+6bcf-6bd0, U+6bd2-6bd4, U+6bd6-6bd8, U+6bda-6bdb, U+6bde;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-064.woff2) format('woff2');
+  unicode-range: U+6be0-6be4, U+6be6-6be8, U+6beb-6bec, U+6bef-6bf0, U+6bf2-6bf3, U+6bf7-6bf9, U+6bfb-6c06, U+6c08-6c09, U+6c0b-6c0d, U+6c0f-6c11, U+6c13-6c1b, U+6c1d, U+6c1f-6c21, U+6c23-6c28, U+6c2a-6c2c, U+6c2e-6c30, U+6c33-6c34, U+6c36, U+6c38-6c39, U+6c3b, U+6c3e-6c43, U+6c46, U+6c4a-6c4e;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-065.woff2) format('woff2');
+  unicode-range: U+6c4f-6c50, U+6c52, U+6c54-6c55, U+6c57, U+6c59, U+6c5b-6c61, U+6c65-6c6b, U+6c6d, U+6c6f-6c74, U+6c76, U+6c78, U+6c7a-6c7b, U+6c7d-6c7e, U+6c80-6c90, U+6c92-6c96, U+6c98-6c9d, U+6ca2, U+6cab-6cae, U+6cb0-6cb1, U+6cb3-6cb4, U+6cb6-6cbe;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-066.woff2) format('woff2');
+  unicode-range: U+6cbf-6cc7, U+6cc9-6cca, U+6ccc-6ccd, U+6ccf-6cd7, U+6cd9-6cde, U+6ce0-6ce3, U+6ce5, U+6ce7-6cf3, U+6cf5, U+6cf9, U+6d00-6d01, U+6d03-6d04, U+6d07-6d12, U+6d16-6d1b, U+6d1d-6d20, U+6d22, U+6d25, U+6d27-6d2a;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-067.woff2) format('woff2');
+  unicode-range: U+6d2b-6d42, U+6d58-6d5a, U+6d5c, U+6d5e-6d6a, U+6d6c-6d70, U+6d72, U+6d74-6d80, U+6d82-6d8e, U+6d90-6d96;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-068.woff2) format('woff2');
+  unicode-range: U+6d97-6d98, U+6daa-6dac, U+6dae-6daf, U+6db2-6db5, U+6db7-6db8, U+6dba-6dc0, U+6dc2, U+6dc4-6dcd, U+6dcf-6de6, U+6de8-6df7, U+6df9-6dfd, U+6e00, U+6e03, U+6e05, U+6e19;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-069.woff2) format('woff2');
+  unicode-range: U+6e1a-6e1d, U+6e1f-6e29, U+6e2b-6e36, U+6e38-6e41, U+6e43-6e47, U+6e49-6e4b, U+6e4d-6e4e, U+6e51-6e56, U+6e58, U+6e5a-6e69, U+6e6b, U+6e6e-6e6f, U+6e71-6e74, U+6e77-6e79;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-070.woff2) format('woff2');
+  unicode-range: U+6e7c, U+6e88-6e89, U+6e8d-6e90, U+6e92-6e94, U+6e96-6e99, U+6e9b-6ea7, U+6eaa-6eab, U+6eae-6eb4, U+6eb6-6eb7, U+6eb9-6eba, U+6ebc-6ed6, U+6ed8-6ed9, U+6edc, U+6eeb-6eef, U+6ef1-6ef2, U+6ef4-6ef6;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-071.woff2) format('woff2');
+  unicode-range: U+6ef7-6ef9, U+6efb-6f03, U+6f05-6f0a, U+6f0d-6f0f, U+6f12-6f15, U+6f18-6f1a, U+6f1c, U+6f1e-6f23, U+6f25-6f27, U+6f29-6f33, U+6f35-6f3c, U+6f3e-6f41, U+6f43, U+6f4e-6f55, U+6f57-6f58, U+6f5a-6f5b, U+6f5d-6f62;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-072.woff2) format('woff2');
+  unicode-range: U+6f63-6f64, U+6f66-6f67, U+6f69-6f70, U+6f72-6f73, U+6f76-6f78, U+6f7a-6f80, U+6f82, U+6f84-6f89, U+6f8b-6f8e, U+6f90, U+6f92-6f97, U+6f9e, U+6fa0-6fb4, U+6fb6, U+6fb8-6fba, U+6fbc-6fbd, U+6fbf-6fc4, U+6fc6-6fc9;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-073.woff2) format('woff2');
+  unicode-range: U+6fca-6fcf, U+6fd4-6fd5, U+6fd8, U+6fdb-6fe4, U+6fe6-6fe9, U+6feb-6ff2, U+6ff4, U+6ff6-6ff7, U+6ffa-6ffc, U+6ffe-7001, U+7004-7007, U+7009-700f, U+7011, U+7014-7024, U+7026-702c, U+702f-7031;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-074.woff2) format('woff2');
+  unicode-range: U+7032-7035, U+7037-703c, U+703e-7046, U+7048-704a, U+704c, U+7051-7052, U+7055-7058, U+705a-705b, U+705d-7066, U+7068-706b, U+7070-7071, U+7074, U+7076, U+7078, U+707a, U+707c-707d, U+7082-7086, U+7089-708a, U+708e, U+7091-7096, U+7098-709a, U+709f, U+70a1, U+70a4, U+70a9, U+70ab-70b0;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-075.woff2) format('woff2');
+  unicode-range: U+70b1, U+70b3-70b5, U+70b7-70ba, U+70be, U+70c5-70c8, U+70ca-70cb, U+70cd-70cf, U+70d1-70d4, U+70d7-70da, U+70dc-70e2, U+70e4, U+70ef-70f1, U+70f3-70f4, U+70f6-70fd, U+70ff-7100, U+7102, U+7104, U+7106, U+7109-710e, U+7110, U+7113, U+7117, U+7119-711c, U+711e-7123, U+7125-7126, U+7128, U+712b, U+712e-7132;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-076.woff2) format('woff2');
+  unicode-range: U+7136, U+713a, U+7140-7147, U+7149-714e, U+7150, U+7152-7156, U+7158-715a, U+715c-716a, U+716c, U+716e, U+7170, U+7172, U+7178, U+717b, U+717d, U+7180-7182, U+7184-7187, U+7189-718a, U+718f-7190, U+7192, U+7194, U+7197, U+7199-71a1, U+71a4-71a5, U+71a7-71aa, U+71ac, U+71af-71b1;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-077.woff2) format('woff2');
+  unicode-range: U+71b2-71b3, U+71b5, U+71b8-71b9, U+71bc-71cb, U+71ce-71d0, U+71d2, U+71d4-71d6, U+71d8-71dc, U+71df-71e2, U+71e4-71e8, U+71ec-71ee, U+71f0-71f2, U+71f4, U+71f6, U+71f8-71f9, U+71fb-71ff, U+7201-7203, U+7205-7207, U+720a, U+720c-720d, U+7210, U+7213-7215, U+7219-721b, U+721d-721f, U+7222-7223, U+7226-7227;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-078.woff2) format('woff2');
+  unicode-range: U+7228-722a, U+722c-722d, U+7230, U+7232, U+7235-7236, U+7238-723b, U+723d-7242, U+7244, U+7246-724c, U+724f, U+7252-7253, U+7256, U+7258-725b, U+725d-7263, U+7267, U+7269-726a, U+726c, U+726e-7270, U+7272-7274, U+7276-7279, U+727b-7281, U+7284-7286, U+7288-7289, U+728b-728e, U+7290-7293, U+7295-7298;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-079.woff2) format('woff2');
+  unicode-range: U+729a-729b, U+729d-729e, U+72a1-72aa, U+72ac, U+72ae-72b0, U+72b4-72b5, U+72ba, U+72bd, U+72bf-72c6, U+72c9-72cc, U+72ce, U+72d0-72d2, U+72d4, U+72d6-72da, U+72dc, U+72df-72e1, U+72e3-72e4, U+72e6, U+72e8-72eb, U+72f3-72f4, U+72f6-7301, U+7307-7308, U+730a-730c, U+730f, U+7311-7313, U+7316-7317;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-080.woff2) format('woff2');
+  unicode-range: U+7318-7319, U+731b-731e, U+7322-7323, U+7325-7327, U+7329-732a, U+732d-732e, U+7330-7337, U+733a-733c, U+733e-7345, U+7349-734a, U+734c-734e, U+7350-7352, U+7357-735b, U+735d-7362, U+7365-736c, U+736e-7370, U+7372-7373, U+7375-7378, U+737a-7383;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-081.woff2) format('woff2');
+  unicode-range: U+7384-738b, U+738e, U+7392-7397, U+739d, U+739f-73a2, U+73a4-73a6, U+73a8-73a9, U+73ab-73ad, U+73b2-73b9, U+73bb-73bc, U+73be-73c0, U+73c2-73c3, U+73c5-73cd, U+73cf, U+73d2-73d4, U+73d6-73de, U+73e0, U+73e3, U+73e5, U+73e7-73eb, U+73ed-73ee, U+73f4-73f6, U+73f8, U+73fa;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-082.woff2) format('woff2');
+  unicode-range: U+73fc-7401, U+7403-740d, U+7416, U+741a-741b, U+741d, U+7420-7426, U+7428-7436, U+743a, U+743c, U+743f-7442, U+7444, U+7446, U+744a-744b, U+744d-7452, U+7454-7455, U+7457, U+7459-745c, U+745e-7460, U+7462-7464, U+7467, U+7469-746a, U+746d-7471;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-083.woff2) format('woff2');
+  unicode-range: U+7472-7473, U+7475, U+7479, U+747c-7481, U+7483, U+7485-748b, U+7490, U+7492, U+7494-7495, U+7497-7498, U+749a, U+749c, U+749e-74a1, U+74a3, U+74a5-74ab, U+74ad, U+74af-74b2, U+74b5-74b8, U+74ba-74bb, U+74bd-74c3, U+74c5, U+74ca-74cb, U+74cf, U+74d4-74e6, U+74e8;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-084.woff2) format('woff2');
+  unicode-range: U+74e9, U+74ec, U+74ee, U+74f4-74f7, U+74fb, U+74fd-7500, U+7502-7504, U+7507-7508, U+750b-750d, U+750f-7518, U+751a, U+751c-751d, U+751f, U+7521-7522, U+7525-7526, U+7528-7534, U+7537-753b, U+753d-7540, U+7547-7548, U+754b-754c, U+754e-754f, U+7551, U+7553-7554, U+7559-755d, U+755f-7560, U+7562-7565;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-085.woff2) format('woff2');
+  unicode-range: U+7566, U+756a-756c, U+756f-7570, U+7576-7579, U+757d-7580, U+7584, U+7586-7587, U+758a-758c, U+758e-7592, U+7594-7595, U+7598-759a, U+759d, U+75a2-75a5, U+75a7, U+75aa-75ab, U+75b0-75b6, U+75b8-75c2, U+75c4-75c5, U+75c7, U+75ca-75d2, U+75d4-75d5, U+75d7-75db, U+75dd-75e1;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-086.woff2) format('woff2');
+  unicode-range: U+75e2-75e4, U+75e6-75e7, U+75ed, U+75ef-7603, U+7608-760d, U+760f-7611, U+7613-7616, U+7619-7629, U+762d, U+762f-7635, U+7638, U+763a-763d, U+7642-7643, U+7646-7649, U+764c, U+764e, U+7650, U+7652;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-087.woff2) format('woff2');
+  unicode-range: U+7653, U+7656-765a, U+765c, U+765f-7662, U+7664-7666, U+7669-766a, U+766c-766e, U+7670-7672, U+7675, U+7678-767f, U+7681-7682, U+7684, U+7686-768b, U+768e-768f, U+7692-7693, U+7695-7696, U+7699-769e, U+76a4, U+76a6, U+76aa-76ab, U+76ad-76b0, U+76b4-76b5, U+76b8, U+76ba-76bb, U+76bd-76bf, U+76c2-76c6, U+76c8-76ca, U+76cd-76ce, U+76d2-76d3;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-088.woff2) format('woff2');
+  unicode-range: U+76d4, U+76da-76df, U+76e1, U+76e3-76e7, U+76e9-76ea, U+76ec-76f5, U+76f7-76fc, U+76fe, U+7701, U+7703-7705, U+7707-770b, U+7710-7713, U+7715, U+7719-771b, U+771d-7720, U+7722-7723, U+7725, U+7727-7729, U+772d, U+772f, U+7731-773e, U+7740, U+7744-7747;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-089.woff2) format('woff2');
+  unicode-range: U+774a-774f, U+7752, U+7754-7756, U+7759-775c, U+775e-7763, U+7765-776f, U+7779-777a, U+777c-7785, U+7787-7789, U+778b-778f, U+7791, U+7793, U+7795, U+7797, U+7799-77a3, U+77a5, U+77a7-77a8, U+77aa-77ad, U+77b0-77b6;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-090.woff2) format('woff2');
+  unicode-range: U+77b7, U+77ba-77bd, U+77bf, U+77c2, U+77c4, U+77c7, U+77c9-77d0, U+77d3-77d5, U+77d7-77dc, U+77de, U+77e0, U+77e2-77e3, U+77e5, U+77e7-77e9, U+77ec-77f3, U+77f7-77fd, U+7802-7803, U+7805-7806, U+7809, U+780c-7814, U+781d, U+781f-7823, U+7825-782f;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-091.woff2) format('woff2');
+  unicode-range: U+7830-7835, U+7837-7838, U+7843, U+7845, U+7848-784a, U+784c-7850, U+7852, U+785c-785e, U+7860, U+7862, U+7864-7865, U+7868-7871, U+7879, U+787b-787c, U+787e-7881, U+7883-7887, U+7889, U+788c-788f, U+7891, U+7893-789a, U+789e-78a5, U+78a7-78ad, U+78b0-78b2;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-092.woff2) format('woff2');
+  unicode-range: U+78b3-78b4, U+78ba-78bc, U+78be, U+78c1, U+78c3-78c5, U+78c8-78d1, U+78d4-78d5, U+78da-78db, U+78dd-78e3, U+78e5, U+78e7-78ea, U+78ec-78ed, U+78ef, U+78f2-78f4, U+78f7, U+78f9-78ff, U+7901-7902, U+7904-7906, U+7909, U+790c, U+790e, U+7910-7914, U+7917, U+7919, U+791b-791e, U+7921, U+7923-792c;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-093.woff2) format('woff2');
+  unicode-range: U+792d, U+792f, U+7931, U+7935, U+7938-793a, U+793d-7942, U+7944-794c, U+794f-7957, U+795a-7965, U+7967-796b, U+796d, U+7970, U+7972-7974, U+7979-797a, U+797c-797d, U+797f, U+7981-7982, U+7988, U+798a-798b, U+798d-7990, U+7992-7998, U+799a-799c, U+79a0-79a2;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-094.woff2) format('woff2');
+  unicode-range: U+79a4, U+79a6-79a8, U+79aa-79ae, U+79b0-79b4, U+79b6-79bb, U+79bd-79c1, U+79c4-79c5, U+79c8-79c9, U+79cb, U+79cd-79cf, U+79d1-79d2, U+79d5-79d6, U+79d8, U+79dc-79e0, U+79e3-79e4, U+79e6-79e7, U+79e9-79ee, U+79f6-79f8, U+79fa-79fb, U+7a00, U+7a02-7a05, U+7a08, U+7a0a-7a0d, U+7a10-7a15, U+7a17-7a1c;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-095.woff2) format('woff2');
+  unicode-range: U+7a1e-7a20, U+7a22, U+7a26, U+7a28, U+7a2b, U+7a2e-7a31, U+7a37, U+7a39, U+7a3b-7a3d, U+7a3f-7a40, U+7a44, U+7a46-7a48, U+7a4a-7a4e, U+7a54, U+7a56-7a58, U+7a5a-7a5c, U+7a5f-7a62, U+7a67-7a69, U+7a6b-7a6e, U+7a70-7a71, U+7a74-7a76, U+7a78-7a7b, U+7a7e-7a81, U+7a84-7a8c, U+7a8f-7a90, U+7a92, U+7a94-7a99, U+7a9e-7aa0, U+7aa2;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-096.woff2) format('woff2');
+  unicode-range: U+7aa3, U+7aa8-7aac, U+7aae-7ab8, U+7aba, U+7abe-7ac1, U+7ac4-7ac5, U+7ac7, U+7aca-7acb, U+7ad1, U+7ad8-7ad9, U+7adf-7ae0, U+7ae3-7ae6, U+7aea-7aeb, U+7aed-7aef, U+7af6-7af7, U+7af9-7afb, U+7afd, U+7aff-7b01, U+7b04-7b06, U+7b08-7b0b, U+7b0e-7b13, U+7b18-7b1b, U+7b1d-7b1e, U+7b20, U+7b22-7b26, U+7b28, U+7b2a-7b2d;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-097.woff2) format('woff2');
+  unicode-range: U+7b2e-7b35, U+7b38-7b39, U+7b3b, U+7b40, U+7b44-7b52, U+7b54, U+7b56, U+7b58, U+7b60-7b61, U+7b63-7b67, U+7b69, U+7b6d-7b6e, U+7b70-7b78, U+7b82, U+7b84-7b85, U+7b87-7b88, U+7b8a-7b91, U+7b94-7b99, U+7b9b-7b9d, U+7ba0-7ba1, U+7ba4, U+7bac-7bad, U+7baf, U+7bb1, U+7bb4-7bb5;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-098.woff2) format('woff2');
+  unicode-range: U+7bb7-7bb9, U+7bbe, U+7bc0-7bc1, U+7bc4, U+7bc6-7bc7, U+7bc9-7bcc, U+7bce, U+7bd4-7bd5, U+7bd8-7beb, U+7bf0-7bf4, U+7bf7-7bf9, U+7bfb, U+7bfd-7c03, U+7c05-7c07, U+7c09-7c11, U+7c19, U+7c1c-7c23, U+7c25-7c2b;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-099.woff2) format('woff2');
+  unicode-range: U+7c2c-7c2d, U+7c30, U+7c33, U+7c37-7c39, U+7c3b-7c40, U+7c43, U+7c45, U+7c47-7c4a, U+7c4c-7c4d, U+7c50, U+7c53-7c54, U+7c57, U+7c59-7c5c, U+7c5f-7c60, U+7c63-7c67, U+7c69-7c6c, U+7c6e-7c6f, U+7c72-7c73, U+7c75, U+7c78-7c7a, U+7c7d, U+7c7f-7c81, U+7c84-7c85, U+7c88-7c8a, U+7c8c-7c8d, U+7c91-7c92, U+7c94-7c98, U+7c9e-7c9f, U+7ca1-7ca3, U+7ca5, U+7ca7-7ca8, U+7cae-7caf, U+7cb1-7cb4;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-100.woff2) format('woff2');
+  unicode-range: U+7cb5, U+7cb9-7cbf, U+7cc5, U+7cc8, U+7cca-7cce, U+7cd0-7cd2, U+7cd4-7cd7, U+7cd9, U+7cdc-7ce0, U+7ce2, U+7ce7-7ce8, U+7cea, U+7cec, U+7cee-7cf2, U+7cf4, U+7cf6-7cf8, U+7cfb, U+7cfd-7cfe, U+7d00-7d22;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-101.woff2) format('woff2');
+  unicode-range: U+7d28-7d29, U+7d2b-7d2c, U+7d2e-7d33, U+7d35-7d36, U+7d38-7d47, U+7d4a, U+7d4e-7d56, U+7d58, U+7d5b-7d5f, U+7d61-7d63, U+7d66-7d6b, U+7d6d-7d73, U+7d79-7d7d, U+7d7f-7d81, U+7d83-7d86, U+7d88-7d89, U+7d8c-7d8f, U+7d91-7d92;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-102.woff2) format('woff2');
+  unicode-range: U+7d93-7d94, U+7d96, U+7d9c-7da3, U+7da6-7da7, U+7da9-7db5, U+7db7-7dc2, U+7dc4-7dc7, U+7dc9-7dcc, U+7dce, U+7dd2, U+7dd7-7ddb, U+7ddd-7de1, U+7de3, U+7de6-7dea, U+7dec, U+7dee-7df4, U+7df6-7df7, U+7df9-7dfb, U+7e03, U+7e08-7e09;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-103.woff2) format('woff2');
+  unicode-range: U+7e0a-7e17, U+7e1a-7e25, U+7e29-7e2b, U+7e2d-7e49, U+7e4c, U+7e50-7e5a, U+7e5c, U+7e5e-7e63, U+7e68-7e6a;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-104.woff2) format('woff2');
+  unicode-range: U+7e6b, U+7e6d-7e70, U+7e72-7e7e, U+7e80-7e82, U+7e86-7e88, U+7e8a-7e8d, U+7e8f, U+7e91, U+7e93-7e9c, U+7f36, U+7f38-7f3a, U+7f3d-7f3f, U+7f43-7f45, U+7f48, U+7f4a-7f51, U+7f54-7f55, U+7f58, U+7f5b-7f61, U+7f63, U+7f65-7f6e;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-105.woff2) format('woff2');
+  unicode-range: U+7f70, U+7f72-7f73, U+7f75-7f7f, U+7f83, U+7f85-7f8e, U+7f91-7f92, U+7f94-7f97, U+7f9a-7f9e, U+7fa0-7fa9, U+7fac-7fad, U+7faf-7fb3, U+7fb5-7fc3, U+7fc5, U+7fc7, U+7fc9-7fd2;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-106.woff2) format('woff2');
+  unicode-range: U+7fd4-7fd5, U+7fd7, U+7fdb-7fdc, U+7fde-7fe3, U+7fe5-7fe6, U+7fe8-7ff5, U+7ff7-7ff9, U+7ffb-8001, U+8003-8007, U+800b-8012, U+8014-8019, U+801b-801c, U+801e-801f, U+8021, U+8024, U+8026, U+8028-802a, U+802c, U+8030, U+8033-8037, U+8039, U+803d-803f, U+8043, U+8046-8047;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-107.woff2) format('woff2');
+  unicode-range: U+8048, U+804a, U+804f-8052, U+8056, U+8058, U+805a, U+805c-805e, U+8064, U+8067, U+806c, U+806f-8073, U+8075-8079, U+807d-807f, U+8082, U+8084-8087, U+8089-808c, U+808f-8090, U+8092-8093, U+8095-8096, U+8098-809d, U+80a1-80a3, U+80a5, U+80a9-80ab, U+80ad-80af, U+80b1-80b2, U+80b4-80b6, U+80b8, U+80ba, U+80bd, U+80c2-80ca, U+80cc-80cf;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-108.woff2) format('woff2');
+  unicode-range: U+80d0-80d1, U+80d4-80de, U+80e0-80e1, U+80e3-80e6, U+80ed, U+80ef-80f5, U+80f8-80fe, U+8100-8102, U+8105-8108, U+810a, U+8115-8119, U+811b, U+811d-811f, U+8121-8125, U+8127, U+8129, U+812b-812d, U+812f-8130, U+8137, U+8139-813a, U+813d-813e, U+8143-8144, U+8146-8147, U+814a-8151;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-109.woff2) format('woff2');
+  unicode-range: U+8152-8155, U+815b-815c, U+815e, U+8160-8162, U+8164-8167, U+8169, U+816b, U+816e-8174, U+8176-817a, U+817f-8180, U+8182-8183, U+8186-818d, U+818f, U+8195, U+8197-81a0, U+81a2-81a3, U+81a5-81a9, U+81ab-81ac, U+81ae, U+81b0-81b7, U+81b9-81c0, U+81c2-81c3;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-110.woff2) format('woff2');
+  unicode-range: U+81c4-81c7, U+81c9-81ca, U+81cc-81cd, U+81cf-81d2, U+81d5, U+81d7-81db, U+81dd-81e3, U+81e5-81ea, U+81ec-81ee, U+81f2-81f4, U+81f7-81fc, U+81fe-8202, U+8204-8205, U+8207-820d, U+8210-8212, U+8214-8216, U+8218, U+821b-8222, U+8225-8226, U+8228, U+822a-822c, U+822f, U+8232;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-111.woff2) format('woff2');
+  unicode-range: U+8233-823a, U+823c-823d, U+823f-8240, U+8242, U+8244-8245, U+8247, U+8249, U+824b, U+824e-8253, U+8255-825c, U+825e-825f, U+8261, U+8263-8264, U+8266, U+8268-8269, U+826b-826f, U+8271-8272, U+8274-8275, U+8277-8278, U+827c-8280, U+8283-8285, U+828a-828b, U+828d-8294, U+8298-829b, U+829d-82a3;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-112.woff2) format('woff2');
+  unicode-range: U+82a4-82b1, U+82b3-82be, U+82c0, U+82c2-82c3, U+82d1-82d7, U+82d9, U+82db-82dc, U+82de-82e1, U+82e3-82e8, U+82ea-82ed, U+82ef-82f7, U+82f9-82fb, U+82fe, U+8300-8309, U+830c-830d, U+8316-8317;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-113.woff2) format('woff2');
+  unicode-range: U+8319, U+831b-831c, U+831e, U+8320, U+8322, U+8324-832d, U+832f, U+8331-833c, U+833f-8345, U+8347-8354, U+8356, U+8373-8378, U+837a-837f, U+8381, U+8383, U+8386-8390, U+8392-8395;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-114.woff2) format('woff2');
+  unicode-range: U+8396-839b, U+839d-839e, U+83a0, U+83a2-83ab, U+83ae-83b0, U+83bd, U+83bf-83cc, U+83ce-83cf, U+83d1, U+83d3-83d9, U+83db-83e5, U+83e7-83ec, U+83ee-83f6, U+83f8-83fe;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-115.woff2) format('woff2');
+  unicode-range: U+83ff, U+8401, U+8403-8404, U+8406-8407, U+8409-8413, U+8418, U+841b, U+8423, U+8429, U+842b-842d, U+842f-843d, U+843f-8440, U+8442-8447, U+8449, U+844b-844e, U+8450-8452, U+8454, U+8456-8457, U+8459-845b, U+845d-8461, U+8463, U+8465-8469, U+846b-8471, U+8473;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-116.woff2) format('woff2');
+  unicode-range: U+8474-847a, U+847d-847e, U+8482, U+8486, U+848d-8491, U+8494, U+8497-84a2, U+84a4, U+84a7-84ac, U+84ae-84b2, U+84b4, U+84b6, U+84b8-84bd, U+84bf-84c2, U+84c4-84c7, U+84c9-84d4, U+84d6-84d7, U+84db, U+84e7-84ec, U+84ee-84ef;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-117.woff2) format('woff2');
+  unicode-range: U+84f0-84f4, U+84f6-84f7, U+84f9-8500, U+8502, U+8506-850f, U+8511-851a, U+851c-8521, U+8523-8531, U+8534, U+853b, U+853d-853e, U+8540-8541, U+8543-854a, U+854d-854e, U+8551, U+8553-8558;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-118.woff2) format('woff2');
+  unicode-range: U+8559, U+855b, U+855d-855e, U+8560-856e, U+8571, U+8575-857c, U+857e, U+8580-8591, U+8594-8596, U+8598-85a4, U+85a6-85aa, U+85af-85b1, U+85b3-85ba, U+85bd;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-119.woff2) format('woff2');
+  unicode-range: U+85be-85c0, U+85c2-85c9, U+85cb, U+85cd-85d2, U+85d5, U+85d7-85da, U+85dc-85df, U+85e1-85e6, U+85e8-85ed, U+85ef-85f2, U+85f6-85fb, U+85fd-8601, U+8604-8607, U+8609-860c, U+8611, U+8617-861c, U+861e-8627, U+8629;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-120.woff2) format('woff2');
+  unicode-range: U+862a, U+862c-862f, U+8631-8636, U+8638-863c, U+863e-8640, U+8643, U+8646-8648, U+864b-864e, U+8650, U+8652-8656, U+8659, U+865b-865c, U+865e-865f, U+8661-8665, U+8667-866b, U+866d-8671, U+8673-8674, U+8677, U+8679-867c, U+8685-8687, U+868a-868e, U+8690-8691, U+8693-869a, U+869c-869d;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-121.woff2) format('woff2');
+  unicode-range: U+869e, U+86a1-86a5, U+86a7-86aa, U+86af-86b1, U+86b3-86c9, U+86cb-86cc, U+86d0-86d1, U+86d3-86d4, U+86d6-86df, U+86e2-86e4, U+86e6, U+86e8-86ed, U+86ef, U+86f5-86fb, U+86fe, U+8700-8708;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-122.woff2) format('woff2');
+  unicode-range: U+8709-870e, U+8711-8713, U+8718-871c, U+871e, U+8720-872a, U+872c-872e, U+8730-8735, U+8737-8738, U+873a-873c, U+873e-8743, U+8746, U+874c-876c;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-123.woff2) format('woff2');
+  unicode-range: U+876d-876f, U+8773-877b, U+8781-8789, U+878d, U+878f-8794, U+8796-8798, U+879a-879f, U+87a2-87a4, U+87aa-87b0, U+87b2-87c0, U+87c2-87c6, U+87c8-87cc, U+87ce, U+87d1-87d4, U+87d7-87d9;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-124.woff2) format('woff2');
+  unicode-range: U+87db-87e8, U+87ea-87ed, U+87ef, U+87f2-87f4, U+87f6-87f7, U+87f9-87fc, U+87fe-8806, U+8808-880d, U+8810-8811, U+8813-8817, U+8819, U+881b-881d, U+881f-8826, U+8828-882c, U+882e-8833, U+8835-8839, U+883b-883c;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-125.woff2) format('woff2');
+  unicode-range: U+883d-8841, U+8843-8844, U+8848, U+884a-884e, U+8852-8853, U+8855-8857, U+8859-885b, U+885d-885e, U+8861-8863, U+8867-886b, U+886d, U+886f-8872, U+8874-8877, U+8879, U+887c-8883, U+8888-8889, U+888b-888e, U+8891-8893, U+8895-889c, U+889e-889f, U+88a1-88a2, U+88a4, U+88a7-88a8, U+88aa-88ac, U+88b1-88b2, U+88b6-88b7;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-126.woff2) format('woff2');
+  unicode-range: U+88b8-88ba, U+88bc-88be, U+88c0-88c2, U+88c7, U+88c9-88d0, U+88d2, U+88d4-88df, U+88e1, U+88e7-88e8, U+88eb-88ec, U+88ee-88f4, U+88f6-88fe, U+8901-8902, U+8905-8907, U+8909-890c, U+890e, U+8910-891a, U+891e-891f, U+8921-8923, U+8925-8926;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-127.woff2) format('woff2');
+  unicode-range: U+8927, U+8929-8933, U+8935-8938, U+893b-893e, U+8941-8942, U+8944, U+8946, U+8949, U+894b-894c, U+894f-8953, U+8956-8964, U+8966, U+8969-896f, U+8971-8974, U+8976, U+8979-897c, U+897e-897f, U+8981-8983, U+8985-8988, U+898b, U+898f, U+8993, U+8995-8998;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-128.woff2) format('woff2');
+  unicode-range: U+899b-899f, U+89a1-89a6, U+89aa, U+89ac-89af, U+89b2, U+89b6-89b7, U+89b9-89ba, U+89bd-89c0, U+89d2-89d6, U+89d9-89dd, U+89df-89e6, U+89e8-89e9, U+89eb-89ed, U+89f0-89f4, U+89f6-89f8, U+89fa-89fc, U+89fe-8a00, U+8a02-8a04, U+8a07-8a08, U+8a0a, U+8a0c, U+8a0e-8a13, U+8a15-8a18, U+8a1b;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-129.woff2) format('woff2');
+  unicode-range: U+8a1d-8a1f, U+8a22-8a23, U+8a25, U+8a27, U+8a2a, U+8a2c-8a2d, U+8a30-8a31, U+8a34, U+8a36, U+8a39-8a3c, U+8a3e-8a41, U+8a44-8a46, U+8a48, U+8a4a, U+8a4c-8a52, U+8a54-8a59, U+8a5b, U+8a5e, U+8a60-8a63, U+8a66, U+8a68-8a69, U+8a6b-8a6e, U+8a70-8a77, U+8a79-8a7c, U+8a7f, U+8a81-8a87, U+8a8b-8a8d, U+8a8f, U+8a91-8a93;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-130.woff2) format('woff2');
+  unicode-range: U+8a95-8a96, U+8a98-8a9a, U+8a9e, U+8aa0-8aa1, U+8aa3-8aa8, U+8aaa-8aab, U+8ab0, U+8ab2, U+8ab6, U+8ab8-8ac0, U+8ac2-8ac9, U+8acb, U+8acd, U+8acf, U+8ad1-8ad9, U+8adb-8ae2, U+8ae4, U+8ae6-8ae8, U+8aeb, U+8aed-8af8, U+8afa-8afc, U+8afe-8b01;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-131.woff2) format('woff2');
+  unicode-range: U+8b02, U+8b04-8b08, U+8b0a-8b0b, U+8b0d-8b1e, U+8b20, U+8b22-8b28, U+8b2a-8b2c, U+8b2e-8b31, U+8b33, U+8b35-8b37, U+8b39-8b3e, U+8b40-8b42, U+8b45-8b4c, U+8b4e-8b5a, U+8b5c-8b5d, U+8b5f-8b60, U+8b63;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-132.woff2) format('woff2');
+  unicode-range: U+8b65-8b68, U+8b6a-8b6d, U+8b6f-8b70, U+8b74, U+8b77-8b7b, U+8b7d-8b80, U+8b82, U+8b84-8b86, U+8b88, U+8b8a-8b8c, U+8b8e, U+8b92-8b96, U+8b98-8b9a, U+8b9c, U+8b9e-8b9f, U+8c37, U+8c39, U+8c3b-8c3f, U+8c41-8c43, U+8c45-8c50, U+8c54-8c57, U+8c5a, U+8c5c-8c5d, U+8c5f, U+8c61-8c62, U+8c64-8c66, U+8c68-8c6c;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-133.woff2) format('woff2');
+  unicode-range: U+8c6d, U+8c6f-8c73, U+8c75-8c7b, U+8c7d, U+8c80-8c82, U+8c84-8c86, U+8c89-8c8a, U+8c8c-8c8d, U+8c8f-8c95, U+8c97-8c9a, U+8c9c-8c9e, U+8ca0-8ca5, U+8ca7-8cac, U+8caf-8cb0, U+8cb2-8cc5, U+8cc7-8cc8, U+8cca, U+8ccc-8ccd, U+8ccf, U+8cd1-8cd2;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-134.woff2) format('woff2');
+  unicode-range: U+8cd3, U+8cd5, U+8cd7, U+8cd9-8cda, U+8cdc-8ce8, U+8cea, U+8cec-8cee, U+8cf0-8cf1, U+8cf3-8cf5, U+8cf8-8cfe, U+8d00, U+8d02, U+8d04-8d0b, U+8d0d, U+8d0f-8d10, U+8d13-8d17, U+8d19, U+8d1b, U+8d64, U+8d66-8d69, U+8d6b-8d70, U+8d72-8d74, U+8d76-8d79, U+8d7b, U+8d7d, U+8d80-8d81, U+8d84-8d85, U+8d89-8d8a;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-135.woff2) format('woff2');
+  unicode-range: U+8d8c-8d96, U+8d99, U+8d9b-8d9c, U+8d9f-8da1, U+8da3, U+8da5, U+8da7-8da8, U+8daa-8daf, U+8db2-8db7, U+8db9-8dba, U+8dbc, U+8dbe-8dbf, U+8dc1-8dc2, U+8dc5-8dc8, U+8dcb-8dd1, U+8dd3, U+8dd5-8ddd, U+8ddf-8de4, U+8de6-8dec, U+8dee-8df3;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-136.woff2) format('woff2');
+  unicode-range: U+8df4, U+8dfa, U+8dfc-8e00, U+8e02-8e07, U+8e09-8e0a, U+8e0d-8e27, U+8e29-8e2b, U+8e2d-8e2e, U+8e30-8e31, U+8e33-8e36, U+8e38-8e39, U+8e3c-8e42, U+8e44-8e45, U+8e47-8e50, U+8e53-8e57, U+8e59;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-137.woff2) format('woff2');
+  unicode-range: U+8e5a-8e67, U+8e69-8e6a, U+8e6c-8e6d, U+8e6f, U+8e72-8e74, U+8e76, U+8e78, U+8e7a-8e7c, U+8e7e, U+8e80-8e82, U+8e84-8e8e, U+8e90-8e98, U+8e9a, U+8e9d-8ea1, U+8ea3-8ea6, U+8ea8-8ead, U+8eb2, U+8eba, U+8ebd, U+8ec0, U+8ec2, U+8ec9-8ecd, U+8ecf, U+8ed1-8ed2;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-138.woff2) format('woff2');
+  unicode-range: U+8ed3-8ed4, U+8ed7-8ed8, U+8eda-8ee1, U+8ee5-8ee9, U+8eeb-8eec, U+8eee-8eef, U+8ef1-8ef2, U+8ef4-8efc, U+8efe-8f03, U+8f05-8f0b, U+8f0d-8f0e, U+8f10-8f18, U+8f1a-8f20, U+8f23-8f26, U+8f29-8f2a, U+8f2c, U+8f2e-8f2f, U+8f32-8f39;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-139.woff2) format('woff2');
+  unicode-range: U+8f3b, U+8f3e-8f40, U+8f42-8f49, U+8f4b, U+8f4d-8f5b, U+8f5d-8f64, U+8f9b-8f9c, U+8f9f, U+8fa3, U+8fa6, U+8fa8, U+8fad-8fb2, U+8fb4-8fb5, U+8fba-8fbc, U+8fbf, U+8fc2, U+8fc4-8fc6, U+8fc9, U+8fcb-8fce, U+8fd1-8fd7, U+8fe0-8fe6, U+8fe8, U+8fea-8feb;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-140.woff2) format('woff2');
+  unicode-range: U+8fed-8fee, U+8ff0, U+8ff4-9006, U+900b-900d, U+900f-9011, U+9014-9017, U+9019-9024, U+902d-902f, U+9031-9032, U+9034-9036, U+9038, U+903c-903f, U+9041-9042, U+9044, U+9047, U+9049-904b, U+904d-9056, U+9058-9059, U+905b-905e;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-141.woff2) format('woff2');
+  unicode-range: U+9060, U+9062-9063, U+9067-9069, U+906b, U+906d-9070, U+9072-9088, U+908a-908b, U+908d, U+908f-9091, U+9094-9095, U+9097-9099, U+909b, U+909e-90a3, U+90a5-90a8, U+90aa, U+90af-90b6, U+90b8, U+90bd-90bf, U+90c1, U+90c3, U+90c5, U+90c7-90c8, U+90ca-90cb, U+90ce, U+90d4-90d6;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-142.woff2) format('woff2');
+  unicode-range: U+90d7-90dd, U+90df-90e5, U+90e8-90ed, U+90ef-90f5, U+90f9-9109, U+910b, U+910d-9112, U+9114, U+9116-9124, U+9126-9132;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-143.woff2) format('woff2');
+  unicode-range: U+9133-9136, U+9138-913b, U+913e-9141, U+9143-9150, U+9152-9153, U+9155-9158, U+915a, U+915f-9165, U+9168-916a, U+916c, U+916e-916f, U+9172-917a, U+9180-9187, U+9189-918b, U+918d, U+918f-9193, U+9199-91a0;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-144.woff2) format('woff2');
+  unicode-range: U+91a1-91a3, U+91a5, U+91a7-91a8, U+91aa-91b5, U+91b7, U+91b9-91ba, U+91bc-91be, U+91c0-91c3, U+91c5-91c7, U+91c9, U+91cb-91d1, U+91d3-91d5, U+91d7-91da, U+91dc-91dd, U+91e2-91e4, U+91e6-91ee, U+91f1, U+91f3-91f5, U+91f7-91f9, U+91fd, U+91ff-920a;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-145.woff2) format('woff2');
+  unicode-range: U+920c-9212, U+9214-9217, U+9219-921a, U+921c, U+921e, U+9223-9227, U+922a, U+922d-922e, U+9230-9234, U+9236-923a, U+923d-9240, U+9244-9246, U+9248-9254, U+9256-9257, U+925a-925b, U+925e, U+9260-9267, U+926c-926d, U+926f-9270, U+9272, U+9276, U+9278-927f;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-146.woff2) format('woff2');
+  unicode-range: U+9280, U+9282-9283, U+9285-9288, U+928a-928e, U+9291, U+9293-929d, U+92a0-92ac, U+92b2-92b7, U+92b9, U+92bb-92bc, U+92be, U+92c0-92d3, U+92d5, U+92d7-92d9, U+92dd-92e1, U+92e4, U+92e6-92e8;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-147.woff2) format('woff2');
+  unicode-range: U+92e9-92ea, U+92ee-92f1, U+92f7-92fc, U+92fe-9302, U+9304, U+9306, U+9308-9309, U+930b-9310, U+9312-9316, U+9318-931b, U+931d-932b, U+932d-932f, U+9333-9336, U+9338-9339, U+933c, U+9346-9347, U+9349-9352, U+9354-935a;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-148.woff2) format('woff2');
+  unicode-range: U+935b-935c, U+935e, U+9360-9361, U+9363-9365, U+9367, U+936a, U+936c-936d, U+9370-9371, U+9375-9377, U+9379-937c, U+937e, U+9380, U+9382-9383, U+9385, U+9388-938a, U+938c-938f, U+9391-9392, U+9394-939b, U+939d-939f, U+93a1-93aa, U+93ac-93b5, U+93b7, U+93c0, U+93c2-93c4, U+93c7-93c8, U+93ca, U+93cc-93d1;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-149.woff2) format('woff2');
+  unicode-range: U+93d2, U+93d4-93da, U+93dc-93df, U+93e1-93e4, U+93e6-93e8, U+93ec, U+93ee, U+93f5-9400, U+9403, U+9406-9407, U+9409-9416, U+9418-9419, U+9420, U+9427-942c, U+942e, U+9430-9433, U+9435-943d, U+943f-9440, U+9444-9448;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-150.woff2) format('woff2');
+  unicode-range: U+9449-944c, U+944f-9452, U+9455, U+9457, U+945b, U+945d-945e, U+9460, U+9462-9464, U+9468-946b, U+946d-9478, U+947c-9483, U+9577, U+957a-957d, U+9580, U+9582-9583, U+9586, U+9588-9589, U+958b-9594, U+9598, U+959b-959c, U+959e-959f, U+95a1, U+95a3-95a5, U+95a8-95ae, U+95b0-95b1;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-151.woff2) format('woff2');
+  unicode-range: U+95b5-95b7, U+95b9-95c0, U+95c3, U+95c5-95cd, U+95d0-95d6, U+95d8, U+95da-95dc, U+95de-95e5, U+961c, U+961e, U+9620-9624, U+9628, U+962a, U+962c-9632, U+9639-963d, U+963f-9640, U+9642-9644, U+964a-9651, U+9653-9654, U+9658, U+965b-965d;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-152.woff2) format('woff2');
+  unicode-range: U+965e-965f, U+9661-9664, U+966a-966d, U+966f-9678, U+967c-967e, U+9680, U+9683-968b, U+968d-968e, U+9691-9695, U+9697-9699, U+969b-969c, U+969e, U+96a1-96a4, U+96a7-96aa, U+96ac, U+96ae, U+96b0-96b1, U+96b3-96b4, U+96b8-96b9, U+96bb-96bc, U+96bf-96ce;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-153.woff2) format('woff2');
+  unicode-range: U+96d2-96df, U+96e1-96e3, U+96e5, U+96e8-96eb, U+96ef-96f2, U+96f5-96fb, U+96fd, U+96ff-9700, U+9702, U+9704-9709, U+970b, U+970d-9713, U+9716, U+9718-9719, U+971c-9720, U+9722-972c, U+972e-9730, U+9732, U+9735, U+9738-973a, U+973d-973e;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-154.woff2) format('woff2');
+  unicode-range: U+973f, U+9742-9744, U+9746-9749, U+974b, U+9751-9752, U+9756, U+9758, U+975a-975c, U+975e, U+9760-9762, U+9766, U+9768-976a, U+976c-976e, U+9770, U+9772-9774, U+9776-9778, U+977a-9785, U+9788, U+978a-978b, U+978d-978f, U+9794, U+9797-979a, U+979c-979e, U+97a0-97a6, U+97a8, U+97aa-97ae, U+97b3, U+97b6-97b7, U+97b9, U+97bb, U+97bf, U+97c1;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-155.woff2) format('woff2');
+  unicode-range: U+97c3-97c7, U+97c9, U+97cb-97d0, U+97d3-97d9, U+97dc-97df, U+97e1, U+97e3, U+97e5, U+97ed-97ee, U+97f0-97f1, U+97f3, U+97f5-97f6, U+97f8-97fb, U+97fd-9808, U+980a, U+980c-9813, U+9816-9818, U+981b-981e, U+9820-9821, U+9824, U+9826-9829, U+982b, U+982d, U+982f-9830, U+9832, U+9835, U+9837-9838;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-156.woff2) format('woff2');
+  unicode-range: U+9839, U+983b, U+9841, U+9843-9846, U+9848-984a, U+984c-9853, U+9857-9860, U+9862-9865, U+9867, U+9869-986b, U+986f-9874, U+98a8-98a9, U+98ac-98af, U+98b1-98b3, U+98b6, U+98b8, U+98ba-98c2, U+98c4, U+98c6, U+98c8-98c9, U+98cb-98cc, U+98db, U+98df, U+98e2-98e3, U+98e5, U+98e7, U+98e9-98eb, U+98ed, U+98ef, U+98f2;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-157.woff2) format('woff2');
+  unicode-range: U+98f4, U+98f6, U+98f9-98fa, U+98fc-98fe, U+9900, U+9902-9903, U+9905, U+9907-990a, U+990c, U+9910-9918, U+991a-991b, U+991e-991f, U+9921, U+9924-9925, U+9927-9933, U+9935, U+9938, U+993a, U+993c-993f, U+9941, U+9943, U+9945, U+9947-9949, U+994b-994e, U+9950-9959, U+995b-995c, U+995e-995f, U+9961, U+9996-9998;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-158.woff2) format('woff2');
+  unicode-range: U+9999, U+999c-999e, U+99a1, U+99a3, U+99a5-99a8, U+99ab-99b5, U+99b9-99bb, U+99bd, U+99c1-99c3, U+99c5, U+99c7, U+99c9, U+99cb-99d9, U+99db-99dd, U+99df, U+99e2-99e5, U+99e7, U+99e9-99ea, U+99ec-99ee, U+99f0-99f1, U+99f4, U+99f6-99ff, U+9a01-9a07;
+}
+
+@font-face {
+  font-family: 'I.PenCrane-B';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(I-PenCrane-B.CJK-Unified-Ideographs-159.woff2) format('woff2');
+  unicode-range: U+9a09-9a0b, U+9a0d-9a0f, U+9a11, U+9a14-9a16, U+9a19-9a1e, U+9a20, U+9a22-9a25, U+9a27, U+9a29-9a2e, U+9a30-9a32, U+9a34-9a3a, U+9a3d-9a46, U+9a48-9a4a, U+9a4c-9a50, U+9a52-9a57, U+9a59-9a5b, U+9a5e-9a5f;
+}
