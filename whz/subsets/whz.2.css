@@ -1001,3 +1001,11 @@
   src: url(whz.Halfwidth-and-Fullwidth-Forms-2.woff2) format('woff2');
   unicode-range: U+ff51-ff5e, U+ffe0-ffe1, U+ffe5;
 }
+
+@font-face {
+  font-family: 'punctuation-marks-altered';
+  src: url(punctuation-marks-altered.woff2) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
