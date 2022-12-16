@@ -1,0 +1,1043 @@
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-083.woff2) format('woff2');
+  unicode-range: U+8f9a-8f9c, U+8f9e-8f9f, U+8fa3, U+8fa6, U+8fa8-8fa9, U+8fab, U+8fad-8fb2, U+8fb6, U+8fb9, U+8fbd-8fbe, U+8fc1-8fc2, U+8fc4-8fc5, U+8fc7-8fc8, U+8fce, U+8fd0-8fd1, U+8fd3-8fd5, U+8fd8-8fd9, U+8fdb-8fdf, U+8fe2, U+8fe4-8fe6, U+8fe8-8feb, U+8fed-8fee, U+8ff0, U+8ff3, U+8ff7-8ff9, U+8ffd, U+9000-9006, U+9009-900b, U+900d, U+900f-9012, U+9014, U+9016-9017, U+9019-901b, U+901d-9020;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-084.woff2) format('woff2');
+  unicode-range: U+9021-9023, U+9026, U+902d-902f, U+9032, U+9035-9036, U+9038, U+903b-903c, U+903e, U+9041-9042, U+9044, U+9047, U+904b, U+904d-9055, U+9057-9058, U+905b-905c, U+905e, U+9060, U+9062-9063, U+9065, U+9068-9069, U+906d-906e, U+9072, U+9074-9075, U+9077-9078, U+907a, U+907c-907d, U+907f-9084, U+9088, U+908a-908b, U+908f, U+9091, U+9093, U+9095, U+9097, U+9099, U+909b, U+909d, U+90a1-90a3, U+90a6, U+90aa, U+90ac, U+90ae-90b1, U+90b3-90b6;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-085.woff2) format('woff2');
+  unicode-range: U+90b8-90bb, U+90be, U+90c1, U+90c4-90c5, U+90c7, U+90ca, U+90ce-90d1, U+90d3, U+90d7, U+90db-90dd, U+90e1-90e2, U+90e6-90e8, U+90eb, U+90ed, U+90ef, U+90f4-90f5, U+90f8, U+90fd-90fe, U+9102, U+9104, U+9109, U+9112, U+9116, U+9119, U+911e, U+9122-9123, U+9127, U+912d, U+912f-9132, U+9139, U+9143, U+9146, U+9149-9150, U+9152, U+9157, U+915a, U+915d-915e, U+9161-9165, U+9169-916a, U+916c, U+916e-9172, U+9174-9177;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-086.woff2) format('woff2');
+  unicode-range: U+9178-9179, U+917d-917f, U+9185, U+9187, U+9189, U+918b-918d, U+9190-9192, U+9196, U+919a-919c, U+91a2-91a3, U+91aa-91af, U+91b4-91b5, U+91ba, U+91c0-91c1, U+91c7, U+91c9-91cf, U+91d1, U+91d8, U+91dc-91dd, U+91e3, U+91e9, U+91fa, U+9209, U+920d-920e, U+9214-9215, U+921e, U+9223, U+9234, U+923e, U+9240, U+9251, U+9257, U+925a-925b, U+9262, U+9274, U+9278, U+927b, U+9280, U+9285, U+928e, U+9291, U+9298, U+929c, U+92a5, U+92ae, U+92b7, U+92b9, U+92bb, U+92c1, U+92c5, U+92c7-92c8, U+92d2;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-087.woff2) format('woff2');
+  unicode-range: U+92e4, U+92ea, U+92ed, U+92f8, U+92fc, U+9310, U+9318, U+9320, U+9322, U+9326, U+9328, U+932b, U+932f, U+9332-9333, U+933e, U+9341, U+934b, U+934d, U+9358, U+935b, U+936a, U+936c, U+9375, U+937a, U+9382, U+938a, U+938f, U+9396, U+93a2, U+93ac, U+93ae, U+93b3, U+93c8, U+93ca, U+93d6, U+93df, U+93e1, U+9410, U+9418, U+942e, U+9433, U+9435, U+943e, U+9444, U+9452, U+946b, U+9470, U+9472, U+9477, U+947c-947d, U+947f, U+9485-9490, U+9492-9495, U+9497, U+9499-94a2;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-088.woff2) format('woff2');
+  unicode-range: U+94a3-94c6, U+94c8-94ce, U+94d0-94d2, U+94d5-94d9, U+94db-94e5, U+94e7-94f8;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-089.woff2) format('woff2');
+  unicode-range: U+94f9-94fa, U+94fc-951b, U+951d-951f, U+9521-9526, U+9528-9532, U+9534-953c, U+953e-9542, U+9544-9547, U+9549-954a, U+954c-9551;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-090.woff2) format('woff2');
+  unicode-range: U+9552-9554, U+9556-9559, U+955b-955f, U+9561-956d, U+956f-9573, U+9576-9577, U+957f-9580, U+9583, U+9589, U+958b, U+958f, U+9591, U+9593, U+9598, U+95a1, U+95a3, U+95a5, U+95a8-95a9, U+95b2, U+95b9, U+95bb, U+95ca, U+95cc, U+95d6, U+95dc, U+95e1, U+95e8-95eb, U+95ed-95fe, U+9600-9603;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-091.woff2) format('woff2');
+  unicode-range: U+9604-9606, U+9608-9612, U+9614-9617, U+9619-961a, U+961c-961d, U+961f, U+9621-9622, U+962a, U+962e, U+9631-9636, U+963b-963d, U+963f-9640, U+9642, U+9644-9649, U+964b-964d, U+9650, U+9654-9655, U+965b, U+965d, U+965f, U+9661-9664, U+9667-966a, U+966c, U+9670, U+9672-9678, U+967d, U+9685-9686, U+9688, U+968a-968b, U+968d-968f;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-092.woff2) format('woff2');
+  unicode-range: U+9690, U+9694-9695, U+9697-9699, U+969b-969c, U+96a7-96a8, U+96aa, U+96b0-96b1, U+96b3-96b4, U+96b6, U+96b8-96b9, U+96bc-96be, U+96c0-96c1, U+96c4-96c7, U+96c9, U+96cc-96cf, U+96d2, U+96d5-96d6, U+96d9, U+96db-96dc, U+96e0, U+96e2-96e3, U+96e8-96ea, U+96ef, U+96f2-96f3, U+96f6-96f7, U+96f9, U+96fb, U+96fe, U+9700-9701, U+9704, U+9706-9709, U+970d-970f, U+9713, U+9716, U+971c, U+971e, U+9727, U+972a, U+972d, U+9730, U+9732, U+9738-9739, U+973e, U+9748, U+9752-9753, U+9756, U+9759, U+975b;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-093.woff2) format('woff2');
+  unicode-range: U+975e, U+9760-9762, U+9765, U+9769, U+9773-9774, U+9776, U+977c, U+9785, U+978b, U+978d, U+978f, U+9791-9792, U+9794, U+9798, U+97a0, U+97a3, U+97ab, U+97ad, U+97af, U+97b2, U+97b4, U+97cb-97cc, U+97d3, U+97e6-97e7, U+97e9-97ed, U+97f3, U+97f5-97f6, U+97ff, U+9801-9803, U+9805-9806, U+9808, U+980c, U+9810-9813, U+9817-9818, U+9824, U+982d, U+9830, U+9838, U+983b, U+983d, U+9846, U+984c-984d, U+9854, U+9858, U+985b, U+985e, U+9867, U+986b, U+986f, U+9871, U+9874-987e;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-094.woff2) format('woff2');
+  unicode-range: U+987f-988a, U+988c-988d, U+988f-9891, U+9893-9894, U+9896-9898, U+989a-98a2, U+98a4-98a8, U+98c4, U+98ce, U+98d1-98d3, U+98d5, U+98d8-98db, U+98de-98df, U+98e7-98e8, U+98ef, U+98f2, U+98fc-98fe, U+9903, U+9905, U+990a, U+990c-990d, U+9910, U+9912-9913, U+9918, U+991e, U+9921, U+9928, U+992e, U+993e, U+9945, U+994b, U+9951-9952, U+9954-9955, U+995e, U+9963, U+9965, U+9967-9968;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-095.woff2) format('woff2');
+  unicode-range: U+9969-9972, U+9974-9977, U+997a, U+997c-997d, U+997f-9981, U+9984-9988, U+998a-998b, U+998d, U+998f-9999, U+99a5, U+99a8, U+99ac-99ae, U+99b1, U+99b3-99b4, U+99c1, U+99d0, U+99d2, U+99d5, U+99db, U+99dd, U+99e1, U+99ed, U+99f1, U+99ff, U+9a01, U+9a0e, U+9a19, U+9a30, U+9a37, U+9a3e, U+9a45, U+9a55, U+9a57, U+9a5a, U+9a5f, U+9a62, U+9a6c-9a71, U+9a73-9a77;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-096.woff2) format('woff2');
+  unicode-range: U+9a78-9a82, U+9a84-9a88, U+9a8a-9a8c, U+9a8f-9a93, U+9a96-9a98, U+9a9a-9aa5, U+9aa7-9aa8, U+9aaf-9ab1, U+9ab6-9ab8, U+9aba, U+9abc, U+9ac0-9ac2, U+9ac5, U+9acb-9acc, U+9ad1, U+9ad3-9ad4, U+9ad8, U+9adf, U+9ae1, U+9ae6, U+9aeb, U+9aed, U+9aef, U+9af9, U+9afb, U+9b03, U+9b06, U+9b08, U+9b0f, U+9b13, U+9b1f, U+9b23, U+9b25, U+9b27, U+9b2f, U+9b31-9b32, U+9b3b;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-097.woff2) format('woff2');
+  unicode-range: U+9b3c, U+9b41-9b45, U+9b47-9b49, U+9b4d, U+9b4f, U+9b51, U+9b54, U+9b5a, U+9b6f, U+9b91, U+9bae, U+9bc9, U+9be8, U+9c13, U+9c49, U+9c57, U+9c7c, U+9c7f, U+9c81-9c82, U+9c85-9c88, U+9c8b, U+9c8d-9c8e, U+9c90-9c92, U+9c94-9c95, U+9c9a-9c9c, U+9c9e-9ca9, U+9cab, U+9cad-9cae, U+9cb0-9cb8, U+9cba-9cbd, U+9cc3-9cc7, U+9cca-9ccf;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-098.woff2) format('woff2');
+  unicode-range: U+9cd0, U+9cd3-9cd9, U+9cdc-9cdf, U+9ce2, U+9ce5, U+9cf3-9cf4, U+9d09, U+9d15, U+9d1b, U+9d26, U+9d28, U+9d3b, U+9d3f, U+9d51, U+9d5d, U+9d6c, U+9d72, U+9db4, U+9dc4, U+9dd7, U+9df9, U+9e1f-9e23, U+9e25-9e26, U+9e28-9e2d, U+9e2f, U+9e31-9e33, U+9e35-9e3a, U+9e3d-9e3f, U+9e41-9e4c, U+9e4e-9e4f, U+9e51, U+9e55, U+9e57-9e58, U+9e5a-9e5c, U+9e5e, U+9e63;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-099.woff2) format('woff2');
+  unicode-range: U+9e64, U+9e66-9e6d, U+9e70-9e71, U+9e73, U+9e7c-9e7f, U+9e82, U+9e87-9e88, U+9e8b, U+9e92-9e93, U+9e97, U+9e9d, U+9e9f, U+9ea5-9ea6, U+9eb4, U+9eb8, U+9ebb, U+9ebd-9ebe, U+9ec4, U+9ec9, U+9ecd-9ecf, U+9ed1, U+9ed4, U+9ed8, U+9edb-9ee0, U+9ee2, U+9ee5, U+9ee7-9eea, U+9eef, U+9ef9, U+9efb-9efc, U+9efe, U+9f0b, U+9f0d-9f0e, U+9f10, U+9f13, U+9f17, U+9f19, U+9f20, U+9f22, U+9f2c, U+9f2f, U+9f37, U+9f39, U+9f3b, U+9f3d-9f3e, U+9f44, U+9f4a-9f4b, U+9f50-9f52, U+9f61;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Unified-Ideographs-100.woff2) format('woff2');
+  unicode-range: U+9f72, U+9f7f-9f80, U+9f83-9f8d, U+9f90, U+9f94, U+9f99-9f9c, U+9f9f-9fa0;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-01.woff2) format('woff2');
+  unicode-range: U+a000-a04f;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-02.woff2) format('woff2');
+  unicode-range: U+a050-a09f;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-03.woff2) format('woff2');
+  unicode-range: U+a0a0-a0ef;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-04.woff2) format('woff2');
+  unicode-range: U+a0f0-a13f;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-05.woff2) format('woff2');
+  unicode-range: U+a140-a18f;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-06.woff2) format('woff2');
+  unicode-range: U+a190-a1df;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-07.woff2) format('woff2');
+  unicode-range: U+a1e0-a22f;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-08.woff2) format('woff2');
+  unicode-range: U+a230-a27f;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-09.woff2) format('woff2');
+  unicode-range: U+a280-a2cf;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-10.woff2) format('woff2');
+  unicode-range: U+a2d0-a31f;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-11.woff2) format('woff2');
+  unicode-range: U+a320-a36f;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-12.woff2) format('woff2');
+  unicode-range: U+a370-a3bf;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-13.woff2) format('woff2');
+  unicode-range: U+a3c0-a40f;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-14.woff2) format('woff2');
+  unicode-range: U+a410-a45f;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Syllables-15.woff2) format('woff2');
+  unicode-range: U+a460-a48c;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Yi-Radicals.woff2) format('woff2');
+  unicode-range: U+a4a1-a4cf;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Lisu.woff2) format('woff2');
+  unicode-range: U+a4d0-a4f3;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Vai-1.woff2) format('woff2');
+  unicode-range: U+a5a1-a5f0;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Vai-2.woff2) format('woff2');
+  unicode-range: U+a5f1-a5f6;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Bamum.woff2) format('woff2');
+  unicode-range: U+a6a1-a6b8, U+a6c1-a6f5;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Latin-Extended-D.woff2) format('woff2');
+  unicode-range: U+a7a1-a7c1, U+a7d1-a7f1;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Saurashtra.woff2) format('woff2');
+  unicode-range: U+a8a1-a8c0, U+a8c5-a8df;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Devanagari-Extended.woff2) format('woff2');
+  unicode-range: U+a8e0-a8ea;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Javanese.woff2) format('woff2');
+  unicode-range: U+a9a4-a9df;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Myanmar-Extended-B.woff2) format('woff2');
+  unicode-range: U+a9e0-a9ef;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Tai-Viet.woff2) format('woff2');
+  unicode-range: U+aaa1-aadf;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Meetei-Mayek-Extensions.woff2) format('woff2');
+  unicode-range: U+aae0-aafe;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Cherokee-Supplement.woff2) format('woff2');
+  unicode-range: U+aba1-abbf;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Meetei-Mayek.woff2) format('woff2');
+  unicode-range: U+abc0;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-01.woff2) format('woff2');
+  unicode-range: U+b0a1-b0f0;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-02.woff2) format('woff2');
+  unicode-range: U+b0f1-b0fe, U+b1a1-b1e2;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-03.woff2) format('woff2');
+  unicode-range: U+b1e3-b1fe, U+b2a1-b2d4;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-04.woff2) format('woff2');
+  unicode-range: U+b2d5-b2fe, U+b3a1-b3c6;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-05.woff2) format('woff2');
+  unicode-range: U+b3c7-b3fe, U+b4a1-b4b8;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-06.woff2) format('woff2');
+  unicode-range: U+b4b9-b4fe, U+b5a1-b5aa;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-07.woff2) format('woff2');
+  unicode-range: U+b5ab-b5fa;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-08.woff2) format('woff2');
+  unicode-range: U+b5fb-b5fe, U+b6a1-b6ec;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-09.woff2) format('woff2');
+  unicode-range: U+b6ed-b6fe, U+b7a1-b7de;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-10.woff2) format('woff2');
+  unicode-range: U+b7df-b7fe, U+b8a1-b8d0;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-11.woff2) format('woff2');
+  unicode-range: U+b8d1-b8fe, U+b9a1-b9c2;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-12.woff2) format('woff2');
+  unicode-range: U+b9c3-b9fe, U+baa1-bab4;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-13.woff2) format('woff2');
+  unicode-range: U+bab5-bafe, U+bba1-bba6;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-14.woff2) format('woff2');
+  unicode-range: U+bba7-bbf6;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-15.woff2) format('woff2');
+  unicode-range: U+bbf7-bbfe, U+bca1-bce8;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-16.woff2) format('woff2');
+  unicode-range: U+bce9-bcfe, U+bda1-bdda;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-17.woff2) format('woff2');
+  unicode-range: U+bddb-bdfe, U+bea1-becc;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-18.woff2) format('woff2');
+  unicode-range: U+becd-befe, U+bfa1-bfbe;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-19.woff2) format('woff2');
+  unicode-range: U+bfbf-bffe, U+c0a1-c0b0;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-20.woff2) format('woff2');
+  unicode-range: U+c0b1-c0fe, U+c1a1-c1a2;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-21.woff2) format('woff2');
+  unicode-range: U+c1a3-c1f2;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-22.woff2) format('woff2');
+  unicode-range: U+c1f3-c1fe, U+c2a1-c2e4;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-23.woff2) format('woff2');
+  unicode-range: U+c2e5-c2fe, U+c3a1-c3d6;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-24.woff2) format('woff2');
+  unicode-range: U+c3d7-c3fe, U+c4a1-c4c8;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-25.woff2) format('woff2');
+  unicode-range: U+c4c9-c4fe, U+c5a1-c5ba;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-26.woff2) format('woff2');
+  unicode-range: U+c5bb-c5fe, U+c6a1-c6ac;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-27.woff2) format('woff2');
+  unicode-range: U+c6ad-c6fc;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-28.woff2) format('woff2');
+  unicode-range: U+c6fd-c6fe, U+c7a1-c7ee;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-29.woff2) format('woff2');
+  unicode-range: U+c7ef-c7fe, U+c8a1-c8e0;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-30.woff2) format('woff2');
+  unicode-range: U+c8e1-c8fe, U+c9a1-c9d2;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-31.woff2) format('woff2');
+  unicode-range: U+c9d3-c9fe, U+caa1-cac4;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-32.woff2) format('woff2');
+  unicode-range: U+cac5-cafe, U+cba1-cbb6;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-33.woff2) format('woff2');
+  unicode-range: U+cbb7-cbfe, U+cca1-cca8;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-34.woff2) format('woff2');
+  unicode-range: U+cca9-ccf8;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-35.woff2) format('woff2');
+  unicode-range: U+ccf9-ccfe, U+cda1-cdea;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-36.woff2) format('woff2');
+  unicode-range: U+cdeb-cdfe, U+cea1-cedc;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-37.woff2) format('woff2');
+  unicode-range: U+cedd-cefe, U+cfa1-cfce;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-38.woff2) format('woff2');
+  unicode-range: U+cfcf-cffe, U+d0a1-d0c0;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-39.woff2) format('woff2');
+  unicode-range: U+d0c1-d0fe, U+d1a1-d1b2;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-40.woff2) format('woff2');
+  unicode-range: U+d1b3-d1fe, U+d2a1-d2a4;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-41.woff2) format('woff2');
+  unicode-range: U+d2a5-d2f4;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-42.woff2) format('woff2');
+  unicode-range: U+d2f5-d2fe, U+d3a1-d3e6;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-43.woff2) format('woff2');
+  unicode-range: U+d3e7-d3fe, U+d4a1-d4d8;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-44.woff2) format('woff2');
+  unicode-range: U+d4d9-d4fe, U+d5a1-d5ca;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-45.woff2) format('woff2');
+  unicode-range: U+d5cb-d5fe, U+d6a1-d6bc;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-46.woff2) format('woff2');
+  unicode-range: U+d6bd-d6fe, U+d7a1-d7ae;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Syllables-47.woff2) format('woff2');
+  unicode-range: U+d7af;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Hangul-Jamo-Extended-B.woff2) format('woff2');
+  unicode-range: U+d7b0-d7f9;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.High-Surrogates-1.woff2) format('woff2');
+  unicode-range: U+d8a1-d8f0;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.High-Surrogates-2.woff2) format('woff2');
+  unicode-range: U+d8f1-d8fe, U+d9a1-d9e2;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.High-Surrogates-3.woff2) format('woff2');
+  unicode-range: U+d9e3-d9fe, U+daa1-dad4;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.High-Surrogates-4.woff2) format('woff2');
+  unicode-range: U+dad5-dafe;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.High-Private-Use-Surrogates-1.woff2) format('woff2');
+  unicode-range: U+dba1-dbf0;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.High-Private-Use-Surrogates-2.woff2) format('woff2');
+  unicode-range: U+dbf1-dbfe;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Low-Surrogates-1.woff2) format('woff2');
+  unicode-range: U+dca1-dcf0;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Low-Surrogates-2.woff2) format('woff2');
+  unicode-range: U+dcf1-dcfe, U+dda1-dde2;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Low-Surrogates-3.woff2) format('woff2');
+  unicode-range: U+dde3-ddfe, U+dea1-ded4;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Low-Surrogates-4.woff2) format('woff2');
+  unicode-range: U+ded5-defe, U+dfa1-dfc6;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Low-Surrogates-5.woff2) format('woff2');
+  unicode-range: U+dfc7-dffe;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Private-Use-Area-1.woff2) format('woff2');
+  unicode-range: U+e0a1-e0f0;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Private-Use-Area-2.woff2) format('woff2');
+  unicode-range: U+e0f1-e0fe, U+e1a1-e1e2;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Private-Use-Area-3.woff2) format('woff2');
+  unicode-range: U+e1e3-e1fe, U+e2a1-e2d4;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Private-Use-Area-4.woff2) format('woff2');
+  unicode-range: U+e2d5-e2f6, U+e76c, U+e78d-e796, U+e7c7-e7c8, U+e7e7-e7f3;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Compatibility-Ideographs.woff2) format('woff2');
+  unicode-range: U+f979, U+f9e7, U+fa0c;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Vertical-Forms.woff2) format('woff2');
+  unicode-range: U+fe10-fe19;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.CJK-Compatibility-Forms.woff2) format('woff2');
+  unicode-range: U+fe31, U+fe33-fe44;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Small-Form-Variants.woff2) format('woff2');
+  unicode-range: U+fe66;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Halfwidth-and-Fullwidth-Forms-1.woff2) format('woff2');
+  unicode-range: U+ff01-ff50;
+}
+
+@font-face {
+  font-family: "FandolFang-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(FandolFang-Regular.Halfwidth-and-Fullwidth-Forms-2.woff2) format('woff2');
+  unicode-range: U+ff51-ff5e, U+ffe0-ffe1, U+ffe3, U+ffe5;
+}

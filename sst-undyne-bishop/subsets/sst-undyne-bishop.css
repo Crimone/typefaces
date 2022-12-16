@@ -1,0 +1,67 @@
+/**
+ * Font Splitter
+ * https://github.com/VdustR/font-splitter
+ */
+
+@font-face {
+  font-family: 'ShouShuti';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(sst.Basic-Latin.woff2) format('woff2');
+  unicode-range: U+2e, U+50, U+53;
+}
+
+@font-face {
+  font-family: 'ShouShuti';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(sst.General-Punctuation.woff2) format('woff2');
+  unicode-range: U+2014;
+}
+
+@font-face {
+  font-family: 'ShouShuti';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(sst.Arrows.woff2) format('woff2');
+  unicode-range: U+2192;
+}
+
+@font-face {
+  font-family: 'ShouShuti';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(sst.CJK-Symbols-and-Punctuation.woff2) format('woff2');
+  unicode-range: U+3002;
+}
+
+@font-face {
+  font-family: 'ShouShuti';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(sst.CJK-Unified-Ideographs-1.woff2) format('woff2');
+  unicode-range: U+4e00, U+4e0a-4e0b, U+4e0d, U+4e24, U+4e2a, U+4e66, U+4e86, U+4eb2, U+4ee5, U+4efb, U+4f1a, U+4f55, U+4f60, U+516c, U+5199, U+51fa, U+5207, U+5230, U+526a, U+529e, U+53ca, U+5403, U+5417, U+5427, U+548c, U+559d, U+5728, U+58f0, U+591c, U+597d, U+5982, U+5b9e, U+5c31, U+5df2, U+5e0c, U+5e26, U+5f97, U+5feb, U+610f, U+613f, U+6210-6211, U+6240, U+627e, U+6362, U+653e, U+65e0, U+65e9, U+65f6, U+6628, U+662f, U+665a, U+66f4, U+66ff, U+6709, U+670d, U+671b, U+672c, U+679c, U+684c, U+6b21, U+6b63, U+6c60;
+}
+
+@font-face {
+  font-family: 'ShouShuti';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(sst.CJK-Unified-Ideographs-2.woff2) format('woff2');
+  unicode-range: U+6ca1, U+6ce8, U+706f, U+7231, U+7247, U+7535, U+7684, U+7761, U+77e5, U+7ecf, U+7ed9, U+804a, U+8212, U+8282, U+836f, U+884c, U+8bb0, U+8bb8, U+8bf4, U+8bf7, U+8fc7, U+8fd8-8fd9, U+9002, U+9053, U+90fd, U+95f4, U+9762;
+}
+
+@font-face {
+  font-family: 'ShouShuti';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(sst.Halfwidth-and-Fullwidth-Forms.woff2) format('woff2');
+  unicode-range: U+ff01, U+ff08-ff09, U+ff0c, U+ff1a-ff1b, U+ff1f;
+}
