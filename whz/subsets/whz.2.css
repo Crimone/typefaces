@@ -1009,3 +1009,75 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: HanWang WeiBeiMedium-Gb5;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(whz-yolan.CJK-Unified-Ideographs-1.woff2) format('woff2');
+  unicode-range: U+4e28, U+4e2c, U+4e36, U+4e3f, U+4e78, U+4ea0, U+4ebb, U+4eeb, U+4eed, U+4f32, U+5002, U+5024, U+502e, U+5078, U+5088, U+50dc, U+50de, U+516a, U+5182, U+5196, U+519a, U+51a7, U+51ab, U+51c7, U+51fc, U+5202, U+520b, U+5234, U+5239, U+5266, U+528f-5290, U+52d0, U+52f9, U+535f, U+5369, U+53a0, U+53b0, U+53b6, U+53c1, U+53c6-53c7, U+5416, U+5421, U+5432, U+543f, U+544b, U+5450-5451, U+5497, U+549d, U+54a3, U+54cb-54cc, U+54d0, U+54da, U+551d, U+5521, U+5523, U+553f, U+5549, U+5553, U+556b, U+556f-5572, U+5579, U+559e, U+55a9, U+55b9-55ba, U+55bc, U+55ea, U+55ec, U+55f0, U+55f5, U+5605, U+561e, U+5621;
+}
+
+@font-face {
+  font-family: HanWang WeiBeiMedium-Gb5;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(whz-yolan.CJK-Unified-Ideographs-2.woff2) format('woff2');
+  unicode-range: U+5622-5623, U+562d, U+5643, U+564d, U+5654, U+565d, U+567b-567c, U+5692, U+569f, U+56af, U+5742, U+5785, U+5787, U+579c, U+57a1, U+57b4, U+57d3, U+57d7, U+57dd, U+5803, U+5816, U+5844, U+5861, U+586c, U+5892, U+589a, U+58e0, U+58f2, U+58f8, U+5902, U+5910, U+596c, U+59f8-59f9, U+5b00, U+5b6d, U+5b80, U+5bf3, U+5c19, U+5c1c, U+5c43, U+5c5b, U+5c9c, U+5cc1, U+5ce3, U+5d2c, U+5d3e, U+5d56, U+5d5a, U+5d74, U+5dd3, U+5ddb, U+5e32, U+5e77, U+5ebc, U+5ef4, U+5efc, U+5f0d, U+5f11, U+5f50, U+5f61, U+5f95, U+5fc4, U+613c, U+6164, U+61b7, U+624c, U+631c, U+63d1, U+63de, U+63f7-63f8, U+63fe, U+64c0, U+651e, U+6534-6535, U+654e;
+}
+
+@font-face {
+  font-family: HanWang WeiBeiMedium-Gb5;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(whz-yolan.CJK-Unified-Ideographs-3.woff2) format('woff2');
+  unicode-range: U+6560, U+656b, U+65e3, U+65f8, U+6657, U+6669, U+66c1, U+6706, U+6736, U+67a7, U+6822, U+6855, U+6898, U+68b9, U+68bc, U+68c1, U+6961, U+6980, U+6985, U+6998, U+69c5, U+69dc, U+6aab, U+6ac8, U+6bbb, U+6bea, U+6c35, U+6c3d, U+6cb2, U+6d44, U+6d49, U+6d50, U+6d5c, U+6da2, U+6e87, U+6ebb, U+6eea, U+6f11, U+6f24, U+6f59, U+7067, U+706c, U+70bb, U+70c0, U+714a, U+7155, U+7173, U+717a, U+7198, U+7232, U+728f, U+729f, U+72ad, U+72b8, U+72cd, U+72dd, U+7304, U+7338-7339, U+7341, U+734f, U+7374, U+7399, U+73b1, U+73c9, U+73f0, U+740e, U+7519, U+7523, U+7551, U+7572, U+7583, U+7592, U+75ad, U+75b4, U+75c3, U+75d6, U+7602, U+7604, U+7606;
+}
+
+@font-face {
+  font-family: HanWang WeiBeiMedium-Gb5;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(whz-yolan.CJK-Unified-Ideographs-4.woff2) format('woff2');
+  unicode-range: U+763b, U+7640, U+764d, U+7654, U+7667, U+76b6, U+770d, U+771c, U+771e, U+7743, U+7786, U+7793, U+7798, U+77f6, U+7818, U+781c, U+7839, U+783c, U+7841, U+7847, U+784f, U+7859-785a, U+7875, U+78b8-78b9, U+78d9, U+7934, U+793b, U+7943, U+794e, U+79fe, U+7a16, U+7a4f, U+7a5e, U+7a8e, U+7ab0, U+7ac8, U+7aea, U+7b62, U+7b7b, U+7b93, U+7ba2, U+7bef, U+7bfc, U+7ca6, U+7ccd, U+7cf9, U+7d5d, U+7d76, U+7d89, U+7dab, U+7db3, U+7dd1, U+7dd4, U+7dd6, U+7e27, U+7e66, U+7e6e, U+7e9f, U+7eb4, U+7ed4, U+7ed6, U+7ef1, U+7f0a, U+7f1e, U+7f4e, U+7f71, U+7f93, U+7fda, U+8020, U+8022, U+8025, U+802e, U+8031, U+8080, U+809f, U+80b6-80b7, U+80bc;
+}
+
+@font-face {
+  font-family: HanWang WeiBeiMedium-Gb5;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(whz-yolan.CJK-Unified-Ideographs-5.woff2) format('woff2');
+  unicode-range: U+80bd, U+80e8-80e9, U+80ec, U+810e, U+8112, U+8132, U+8137, U+8148, U+8156, U+8158-815a, U+81aa, U+81c1, U+822d, U+823e, U+82aa, U+82c4, U+82ca, U+82d8, U+82f7, U+8313, U+831a, U+8359, U+836c, U+836e, U+83d3, U+8418, U+841a, U+841c, U+845c, U+8464, U+8488, U+8493, U+84bd, U+84da, U+8538, U+8552, U+85c1, U+85f4, U+8616, U+8683, U+86b2, U+8770, U+877d, U+878b, U+87a8, U+87ce, U+87ee, U+8846, U+8864, U+88c8, U+88e5, U+8947, U+8a01, U+8aac, U+8b21, U+8b2d, U+8ba0, U+8bbb, U+8bea, U+8c09, U+8c1e, U+8ceb, U+8d0b, U+8d1c, U+8d51-8d52, U+8d57, U+8de5, U+8df6, U+8e3a, U+8eb1, U+8ece, U+8eda, U+8ee4, U+8ef2, U+8f71, U+8f77;
+}
+
+@font-face {
+  font-family: HanWang WeiBeiMedium-Gb5;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(whz-yolan.CJK-Unified-Ideographs-6.woff2) format('woff2');
+  unicode-range: U+8fb6, U+902c, U+90a8, U+90de, U+9115, U+915e, U+9176, U+918c, U+9196, U+91d2, U+91fa, U+9208, U+920e, U+9255, U+9262, U+92b1, U+92e3, U+92e5, U+92ed, U+92f6, U+9307, U+9332, U+9340-9341, U+9343, U+9369, U+9384-9385, U+9387, U+93ad, U+93b8, U+93bf, U+941d, U+9426-9427, U+943e, U+9454, U+9465, U+9479, U+9485, U+948e, U+9496, U+949a, U+949c, U+94b7, U+94d3, U+94d8, U+94de, U+94e6, U+9503, U+950d, U+950f, U+9518, U+951d, U+9520, U+9527-9528, U+952a-952b, U+953d, U+953f, U+9543, U+954b, U+9560, U+9565, U+9569, U+956e, U+9572, U+9574-9575, U+95b2, U+95ec, U+95ff, U+9607, U+9613, U+961b, U+961d, U+9751, U+9792, U+97b2;
+}
+
+@font-face {
+  font-family: HanWang WeiBeiMedium-Gb5;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(whz-yolan.CJK-Unified-Ideographs-7.woff2) format('woff2');
+  unicode-range: U+97bd, U+97e8, U+9823, U+983d, U+9854, U+985a, U+986c, U+9892, U+9899, U+98a3, U+98a5, U+98c8, U+98cf, U+98da, U+98e0, U+98ee, U+9920, U+9937-9938, U+994a, U+9962-9964, U+9973, U+9979, U+997e, U+9980, U+9982-9983, U+9987, U+9989, U+9993, U+9995, U+99e1, U+9a08, U+9a8e, U+9a95, U+9aa6, U+9ab6, U+9aba, U+9b0f, U+9b81, U+9b83, U+9b8e, U+9b9d, U+9bdd, U+9bed, U+9bf4, U+9bff, U+9c02, U+9c10, U+9c20, U+9c35, U+9c45, U+9c5d, U+9c72, U+9c7d, U+9c80, U+9c85-9c87, U+9c8a, U+9c8f, U+9c96-9c97, U+9c99, U+9cb4, U+9cba, U+9cbc, U+9cc1, U+9cca-9ccb, U+9cd1-9cd2, U+9cd8-9cd9, U+9cdb, U+9ce3, U+9d93, U+9da5;
+}
+
+@font-face {
+  font-family: HanWang WeiBeiMedium-Gb5;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(whz-yolan.CJK-Unified-Ideographs-8.woff2) format('woff2');
+  unicode-range: U+9dc0, U+9dc4, U+9e0c, U+9e27, U+9e2e, U+9e30, U+9e34, U+9e4b, U+9e52-9e53, U+9e56, U+9e59, U+9e5b, U+9e61, U+9e6f, U+9e71, U+9e95-9e96, U+9eaf, U+9ebd, U+9ee1-9ee2, U+9f81-9f82;
+}
