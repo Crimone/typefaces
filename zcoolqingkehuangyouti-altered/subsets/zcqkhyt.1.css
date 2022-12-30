@@ -4,25 +4,25 @@
  */
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(zcqkhyt.Basic-Latin-1.woff2) format('woff2');
-  unicode-range: U+0, U+2, U+8-a, U+d, U+1d, U+20-68;
+  unicode-range: U+0, U+8-9, U+d, U+1d, U+20-6a;
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(zcqkhyt.Basic-Latin-2.woff2) format('woff2');
-  unicode-range: U+69-7f;
+  unicode-range: U+6b-7f;
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -40,7 +40,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -49,7 +49,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -58,7 +58,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -67,7 +67,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -76,7 +76,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -85,7 +85,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -94,7 +94,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -103,7 +103,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -112,7 +112,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -121,7 +121,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -130,7 +130,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -139,7 +139,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -148,7 +148,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -157,7 +157,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -166,7 +166,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -175,7 +175,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -184,7 +184,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -193,7 +193,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -202,7 +202,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -211,7 +211,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -220,7 +220,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -229,7 +229,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -238,7 +238,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -247,7 +247,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -256,7 +256,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -265,7 +265,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -274,7 +274,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -283,7 +283,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -292,7 +292,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -301,7 +301,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -310,7 +310,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -319,7 +319,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -328,7 +328,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -337,7 +337,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -346,7 +346,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -355,7 +355,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -364,7 +364,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -373,7 +373,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -382,7 +382,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -391,7 +391,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -400,7 +400,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -409,7 +409,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -418,7 +418,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -427,7 +427,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -436,7 +436,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -445,7 +445,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -454,7 +454,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -463,7 +463,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -472,7 +472,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -481,7 +481,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -490,7 +490,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -499,7 +499,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -508,7 +508,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -517,7 +517,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -526,7 +526,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -535,7 +535,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -544,7 +544,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -553,7 +553,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -562,7 +562,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -571,7 +571,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -580,7 +580,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -589,7 +589,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -598,7 +598,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -607,7 +607,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -616,7 +616,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -625,7 +625,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -634,7 +634,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -643,7 +643,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -652,7 +652,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -661,7 +661,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -670,7 +670,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -679,7 +679,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -688,7 +688,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -697,7 +697,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -706,7 +706,7 @@
 }
 
 @font-face {
-  font-family: 'zcoolqingkehuangyouti-Regular';
+  font-family: "zcoolqingkehuangyouti-Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
